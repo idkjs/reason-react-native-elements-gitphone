@@ -24,4 +24,6 @@ S /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-react-native/lib/ocaml
 B /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-react-native/lib/ocaml
 S src
 B lib/bs/src
+S src/components
+B lib/bs/src/components
 ####BSB GENERATED: NO EDIT}

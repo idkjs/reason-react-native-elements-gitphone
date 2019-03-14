@@ -2,11 +2,15 @@
 'use strict';
 
 var ReasonReact = require("reason-react/src/ReasonReact.js");
+var MyButton$Gitphone = require("./components/MyButton.bs.js");
 var Text$BsReactNative = require("bs-react-native/src/components/text.js");
 var View$BsReactNative = require("bs-react-native/src/components/view.js");
 
 function app(param) {
-  return ReasonReact.element(undefined, undefined, View$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, Text$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, /* array */["Let's get this party started!"]))]));
+  return ReasonReact.element(undefined, undefined, View$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[
+                  ReasonReact.element(undefined, undefined, Text$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, /* array */["Let's get this party started!"])),
+                  ReasonReact.element(undefined, undefined, MyButton$Gitphone.make(/* array */[]))
+                ]));
 }
 
 exports.app = app;
