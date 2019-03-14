@@ -3,23 +3,41 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bs-react-native": "0.10.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts-for-react-native-web": "2.1.1"
+    "react-native": "0.59.1",
+    "react-native-web": "0.11.0",
+    "react-scripts-for-react-native-web": "2.1.1",
+    "reason-react": "0.6.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios": "react-native run-ios",
+    "start:web": "react-scripts start",
+    "build-reason": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/core": "7.3.4",
+    "@babel/runtime": "7.3.4",
+    "babel-jest": "24.5.0",
+    "bs-platform": "4.0.18",
+    "jest": "24.5.0",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
 }
