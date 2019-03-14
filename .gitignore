@@ -83,3 +83,5 @@ lib
 android
 ios
 .bsb.lock
+flow-typed
+.merlin
