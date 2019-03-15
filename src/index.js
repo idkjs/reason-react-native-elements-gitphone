@@ -1,5 +1,8 @@
 import { AppRegistry } from "react-native";
-import {app as App} from "./App.bs";
+// import {app as App} from "./App.bs";
+// import {app as App} from './web/SwitchNavWeb.bs';
+import {app as App} from './App.bs';
+import * as serviceWorker from './web/serviceWorker';
 // import { name as appName } from "./app.json";
 import iconFont from 'react-native-vector-icons/Fonts/FontAwesome.ttf';
 
