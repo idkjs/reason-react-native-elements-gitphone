@@ -3,10 +3,9 @@
 
 var ReasonReact = require("reason-react/src/ReasonReact.js");
 var Home$Gitphone = require("./components/Home.bs.js");
-var View$BsReactNative = require("bs-react-native/src/components/view.js");
 
 function app(param) {
-  return ReasonReact.element(undefined, undefined, View$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, Home$Gitphone.make(/* array */[]))]));
+  return ReasonReact.element(undefined, undefined, Home$Gitphone.make(/* array */[]));
 }
 
 exports.app = app;

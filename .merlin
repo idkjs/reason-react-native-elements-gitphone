@@ -12,10 +12,14 @@ S /Users/prisc_000/working/RNWEB/gitphone/node_modules/reason-react/lib/ocaml
 B /Users/prisc_000/working/RNWEB/gitphone/node_modules/reason-react/lib/ocaml
 S /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-react-native/lib/ocaml
 B /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-react-native/lib/ocaml
+S /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-react-native-vector-icons/lib/ocaml
+B /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-react-native-vector-icons/lib/ocaml
 S src
 B lib/bs/src
 S src/components
 B lib/bs/src/components
+S src/styles
+B lib/bs/src/styles
 S src/rnelements
 B lib/bs/src/rnelements
 ####BSB GENERATED: NO EDIT}

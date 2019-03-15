@@ -5,10 +5,12 @@ var ReasonReact = require("reason-react/src/ReasonReact.js");
 var Js_null_undefined = require("bs-platform/lib/js/js_null_undefined.js");
 var ReactNativeElements = require("react-native-elements");
 
-function make(placeholder, label, children) {
+function make(placeholder, label, containerStyle, inputStyle, children) {
   return ReasonReact.wrapJsForReason(ReactNativeElements.Input, {
               placeholder: Js_null_undefined.fromOption(placeholder),
-              label: Js_null_undefined.fromOption(label)
+              label: Js_null_undefined.fromOption(label),
+              containerStyle: Js_null_undefined.fromOption(containerStyle),
+              inputStyle: Js_null_undefined.fromOption(inputStyle)
             }, children);
 }
 

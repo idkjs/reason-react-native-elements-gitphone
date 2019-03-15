@@ -1,15 +1,14 @@
 open BsReactNative;
-
+open Styles;
 let component = ReasonReact.statelessComponent("Home");
-
+ let renderPlaneIcon = <RNIcons.FontAwesome size=24. name=`_paperPlane color= "white" />;
+ let renderPlaneIcon2 = <Icons name="paper-plane" size=24 color="white"/>
 let make = _children => {
   ...component,
   render: _self =>
-    <View>
-      <Input label="Owner" placeholder="Github's owner" />
-      <Input label="Repo" placeholder="Github's repository name" />
-      <ButtonEl title="SUBMIT">
-        <Icons color="white" name="paper-plane" size=15 />
-      </ButtonEl>
+    <View style=styles##container>
+      <RNElements.Input containerStyle=InputS.containerStyle inputStyle=InputS.inputStyle label="Owner" placeholder="Github's owner" />
+      <RNElements.Input containerStyle=InputS.containerStyle inputStyle=InputS.inputStyle label="Repo" placeholder="Github's repository name" />
+      <RNElements.Button buttonStyle=ButtonS.containerStyle icon=renderPlaneIcon2 title="SUBMIT" />
     </View>,
 };
