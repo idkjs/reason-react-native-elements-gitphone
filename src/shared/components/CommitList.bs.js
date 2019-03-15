@@ -10,7 +10,7 @@ var View$BsReactNative = require("bs-react-native/src/components/view.js");
 
 var component = ReasonReact.statelessComponent("CommitList");
 
-function make(_children) {
+function make(navigation, _children) {
   return /* record */[
           /* debugName */component[/* debugName */0],
           /* reactClassInternal */component[/* reactClassInternal */1],
