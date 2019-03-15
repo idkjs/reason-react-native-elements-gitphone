@@ -12,9 +12,9 @@ var View$BsReactNative = require("bs-react-native/src/components/view.js");
 
 var component = ReasonReact.statelessComponent("Home");
 
-var renderPlaneIcon = ReasonReact.element(undefined, undefined, RNIcons.FontAwesome[/* make */1](/* _paperPlane */990601295, "white", 24, undefined, /* array */[]));
+var renderPlaneIcon = ReasonReact.element(undefined, undefined, RNIcons.FontAwesome[/* make */1](/* _paperPlane */990601295, "white", 15, undefined, /* array */[]));
 
-var renderPlaneIcon2 = ReasonReact.element(undefined, undefined, Icons$Gitphone.make("paper-plane", 24, "white")(/* array */[]));
+var renderPlaneIcon2 = ReasonReact.element(undefined, undefined, Icons$Gitphone.make("paper-plane", 15, "white")(/* array */[]));
 
 function make(_children) {
   return /* record */[
