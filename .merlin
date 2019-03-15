@@ -20,6 +20,8 @@ S src/components
 B lib/bs/src/components
 S src/styles
 B lib/bs/src/styles
+S src/Utils
+B lib/bs/src/Utils
 S src/rnelements
 B lib/bs/src/rnelements
 ####BSB GENERATED: NO EDIT}
