@@ -18,7 +18,7 @@
       "subdirs": true
     }
   ],
-  "bs-dependencies": ["reason-react", "bs-react-native"],
+  "bs-dependencies": ["reason-react", "bs-react-native","bs-react-native-vector-icons"],
   "refmt": 3,
   "suffix": ".bs.js",
   "namespace": true
