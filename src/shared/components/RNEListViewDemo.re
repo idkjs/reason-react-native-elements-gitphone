@@ -57,23 +57,14 @@ FlatList.renderItem(({item}) =>
   />
   );
 let keyExtractor = (_item, idx) => string_of_int(idx);
-let getCommits =
-  Js.Promise.(
-    Fetch.fetch("https://api.github.com/repos/react-native-training/react-native-elements/commits")
-    /* assume server returns `["apple", "banana", "pear", ...]` */
-    |> then_(Fetch.Response.json)
-    |> then_(json => Js.log(json) |> resolve)
-);
-
 let make = (~navigation: Config.navigationProp, _children) => {
   ...component,
-  render: _self =>{
-    Js.log(getCommits);
+  render: _self =>
     <ScrollView>
       <FlatList
         data={listJst->Array.of_list}
         renderItem
         keyExtractor
       />
-    </ScrollView>}
+    </ScrollView>,
 };

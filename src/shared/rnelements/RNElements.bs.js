@@ -8,7 +8,10 @@ var Input = 0;
 
 var ListItem = 0;
 
+var Avatar = 0;
+
 exports.Button = Button;
 exports.Input = Input;
 exports.ListItem = ListItem;
+exports.Avatar = Avatar;
 /* No side effect */
