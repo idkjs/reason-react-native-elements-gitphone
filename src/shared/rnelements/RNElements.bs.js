@@ -6,6 +6,9 @@ var Button = 0;
 
 var Input = 0;
 
+var ListItem = 0;
+
 exports.Button = Button;
 exports.Input = Input;
+exports.ListItem = ListItem;
 /* No side effect */

@@ -11,18 +11,25 @@
   "bsc-flags": [
     "-bs-super-errors"
   ],
-  "sources": [
-    {
-      "dir": "src",
-      "subdirs": true
-    }
-  ],
-  "bs-dependencies": ["reason-react",
+  "sources": [{
+    "dir": "src",
+    "subdirs": true
+  }],
+  "bs-dependencies": [
+    "reason-react",
     "bs-react-native",
     "bs-react-native-vector-icons",
     "bs-react-navigation",
-    "bs-random-nav"
+    "bs-random-nav",
+    "bs-fetch",
+    "@glennsl/bs-json"
   ],
+  "gentypeconfig": {
+    "language": "flow",
+    "shims": {
+      "ReasonReact": "ReactShim"
+    }
+  },
   "refmt": 3,
   "suffix": ".bs.js",
   "namespace": true
