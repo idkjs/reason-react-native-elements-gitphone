@@ -94,12 +94,6 @@ function keyExtractor(_item, idx) {
   return String(idx);
 }
 
-var getCommits = fetch("https://api.github.com/repos/react-native-training/react-native-elements/commits").then((function (prim) {
-          return prim.json();
-        })).then((function (json) {
-        return Promise.resolve((console.log(json), /* () */0));
-      }));
-
 function make(navigation, _children) {
   return /* record */[
           /* debugName */component[/* debugName */0],
@@ -112,7 +106,6 @@ function make(navigation, _children) {
           /* willUpdate */component[/* willUpdate */7],
           /* shouldUpdate */component[/* shouldUpdate */8],
           /* render */(function (_self) {
-              console.log(getCommits);
               return ReasonReact.element(undefined, undefined, ScrollView$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, FlatList$BsReactNative.make($$Array.of_list(listJst), renderItem, keyExtractor, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[]))]));
             }),
           /* initialState */component[/* initialState */10],
@@ -127,6 +120,5 @@ exports.listJst = listJst;
 exports.component = component;
 exports.renderItem = renderItem;
 exports.keyExtractor = keyExtractor;
-exports.getCommits = getCommits;
 exports.make = make;
 /* styles Not a pure module */

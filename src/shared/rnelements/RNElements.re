@@ -1,3 +1,4 @@
 module Button = ButtonEl;
 module Input = InputEl;
-module ListItem = ListItemEl;
+module ListItem = RNListItem;
+module Avatar = RNAvatar;

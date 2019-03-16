@@ -26,6 +26,8 @@ S src
 B lib/bs/src
 S src/mobile
 B lib/bs/src/mobile
+S src/shared/data
+B lib/bs/src/shared/data
 S src/shared/components
 B lib/bs/src/shared/components
 S src/shared/styles

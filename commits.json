@@ -1,0 +1,2377 @@
+[
+  {
+    "sha": "bddc942669b107546c9b31ff848cee897fec8f8f",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6YmRkYzk0MjY2OWIxMDc1NDZjOWIzMWZmODQ4Y2VlODk3ZmVjOGY4Zg==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-03-10T12:17:09Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-03-10T12:17:09Z"
+      },
+      "message": "ci: Pin version of node\n\nSee #1822 for context",
+      "tree": {
+        "sha": "9d0f1fd05f5d8ed492d09687582e56ca113821b0",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/9d0f1fd05f5d8ed492d09687582e56ca113821b0"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/bddc942669b107546c9b31ff848cee897fec8f8f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/bddc942669b107546c9b31ff848cee897fec8f8f",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/bddc942669b107546c9b31ff848cee897fec8f8f",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/bddc942669b107546c9b31ff848cee897fec8f8f/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c06175266094a8a4993c27c70b77c0d20f9997e8",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/c06175266094a8a4993c27c70b77c0d20f9997e8",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/c06175266094a8a4993c27c70b77c0d20f9997e8"
+      }
+    ]
+  },
+  {
+    "sha": "c06175266094a8a4993c27c70b77c0d20f9997e8",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6YzA2MTc1MjY2MDk0YThhNDk5M2MyN2M3MGI3N2MwZDIwZjk5OTdlOA==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-03-10T11:24:54Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-03-10T11:24:54Z"
+      },
+      "message": "docs(listitem-1.0.0): Apply changes from #1811 to current docs",
+      "tree": {
+        "sha": "66817c340371fab0f321cca4053a5b22c5fb6577",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/66817c340371fab0f321cca4053a5b22c5fb6577"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/c06175266094a8a4993c27c70b77c0d20f9997e8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/c06175266094a8a4993c27c70b77c0d20f9997e8",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/c06175266094a8a4993c27c70b77c0d20f9997e8",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/c06175266094a8a4993c27c70b77c0d20f9997e8/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3c68e7eb463f3a059b9db680576976e3fdec77d2",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/3c68e7eb463f3a059b9db680576976e3fdec77d2",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/3c68e7eb463f3a059b9db680576976e3fdec77d2"
+      }
+    ]
+  },
+  {
+    "sha": "3c68e7eb463f3a059b9db680576976e3fdec77d2",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6M2M2OGU3ZWI0NjNmM2EwNTliOWRiNjgwNTc2OTc2ZTNmZGVjNzdkMg==",
+    "commit": {
+      "author": {
+        "name": "YIPG",
+        "email": "around.mr.child@gmail.com",
+        "date": "2019-03-04T04:09:22Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-03-04T04:09:22Z"
+      },
+      "message": "docs(ListItem): Make value of keyExtractor a string (#1811)",
+      "tree": {
+        "sha": "b61f13cc5dda60d31e12524a2d9251f63cc88878",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/b61f13cc5dda60d31e12524a2d9251f63cc88878"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/3c68e7eb463f3a059b9db680576976e3fdec77d2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/3c68e7eb463f3a059b9db680576976e3fdec77d2",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/3c68e7eb463f3a059b9db680576976e3fdec77d2",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/3c68e7eb463f3a059b9db680576976e3fdec77d2/comments",
+    "author": {
+      "login": "YIPG",
+      "id": 19145527,
+      "node_id": "MDQ6VXNlcjE5MTQ1NTI3",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19145527?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YIPG",
+      "html_url": "https://github.com/YIPG",
+      "followers_url": "https://api.github.com/users/YIPG/followers",
+      "following_url": "https://api.github.com/users/YIPG/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YIPG/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YIPG/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YIPG/subscriptions",
+      "organizations_url": "https://api.github.com/users/YIPG/orgs",
+      "repos_url": "https://api.github.com/users/YIPG/repos",
+      "events_url": "https://api.github.com/users/YIPG/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YIPG/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "24f6eb5f42bc91163f9bc7642b9cd4afce04e242",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/24f6eb5f42bc91163f9bc7642b9cd4afce04e242",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/24f6eb5f42bc91163f9bc7642b9cd4afce04e242"
+      }
+    ]
+  },
+  {
+    "sha": "24f6eb5f42bc91163f9bc7642b9cd4afce04e242",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6MjRmNmViNWY0MmJjOTExNjNmOWJjNzY0MmI5Y2Q0YWZjZTA0ZTI0Mg==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-24T23:12:13Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-24T23:12:13Z"
+      },
+      "message": "docs(website): Cut v1.1.0 version of docs",
+      "tree": {
+        "sha": "8fc2b7aa39509433e01798b1e94e0508c0dff5da",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/8fc2b7aa39509433e01798b1e94e0508c0dff5da"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/24f6eb5f42bc91163f9bc7642b9cd4afce04e242",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/24f6eb5f42bc91163f9bc7642b9cd4afce04e242",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/24f6eb5f42bc91163f9bc7642b9cd4afce04e242",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/24f6eb5f42bc91163f9bc7642b9cd4afce04e242/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f8b27a0316440949c9e81bc520eadf88f54dc0fd",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/f8b27a0316440949c9e81bc520eadf88f54dc0fd",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/f8b27a0316440949c9e81bc520eadf88f54dc0fd"
+      }
+    ]
+  },
+  {
+    "sha": "f8b27a0316440949c9e81bc520eadf88f54dc0fd",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6ZjhiMjdhMDMxNjQ0MDk0OWM5ZTgxYmM1MjBlYWRmODhmNTRkYzBmZA==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-24T22:56:35Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-02-24T22:56:35Z"
+      },
+      "message": "v1.1.0 #1802",
+      "tree": {
+        "sha": "792108d39dddfbd5b38c9b46ea78afacbf4689f0",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/792108d39dddfbd5b38c9b46ea78afacbf4689f0"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/f8b27a0316440949c9e81bc520eadf88f54dc0fd",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJccyEjCRBK7hj4Ov3rIwAAdHIIAD6gyITfSlSTbmMhuz3FERNX\nQUq8gaFcM92DMghTcsXoQNwuQ4UeywWROmp2k/wHft/uwVfRC2VKxoqtf1NHnyXd\njKnfs1souFJhbgCzvjmZX84j/+50c62Fne1HKlW1TQ5i8gPg8qK3NdXZ7lgGe+1u\n4ipCuRc0SK0IWGw7/nQVkL1UByKrj8EN7I7y5jfzVFRkTX5U4hCHhhqjNjUsOKkS\noAEO5RAOvc6d5Q+HIiSHMr5/DOsGSeg8sUXZEfw3fu3nkbrqBfLUwivPh6/3W2s1\n33kq1CLvhfhSLlDKaZ8Hdfg1Gq4rv7kzQTENrK53o+e6gShZ9Msb9kl6yXxn+gk=\n=Crnc\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 792108d39dddfbd5b38c9b46ea78afacbf4689f0\nparent 141d3a7c5a3585b46b1377b655889ec0c35d80f9\nparent 0b048e6a70dbe9e8d03aa15c9a6bf1917f973a95\nauthor Kyle Roach <kroach.work@gmail.com> 1551048995 -0400\ncommitter GitHub <noreply@github.com> 1551048995 -0400\n\nv1.1.0 #1802 \n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/f8b27a0316440949c9e81bc520eadf88f54dc0fd",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/f8b27a0316440949c9e81bc520eadf88f54dc0fd",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/f8b27a0316440949c9e81bc520eadf88f54dc0fd/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "141d3a7c5a3585b46b1377b655889ec0c35d80f9",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/141d3a7c5a3585b46b1377b655889ec0c35d80f9",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/141d3a7c5a3585b46b1377b655889ec0c35d80f9"
+      },
+      {
+        "sha": "0b048e6a70dbe9e8d03aa15c9a6bf1917f973a95",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/0b048e6a70dbe9e8d03aa15c9a6bf1917f973a95",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/0b048e6a70dbe9e8d03aa15c9a6bf1917f973a95"
+      }
+    ]
+  },
+  {
+    "sha": "0b048e6a70dbe9e8d03aa15c9a6bf1917f973a95",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6MGIwNDhlNmE3MGRiZTllOGQwM2FhMTVjOWE2YmYxOTE3Zjk3M2E5NQ==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-24T22:32:24Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-24T22:32:24Z"
+      },
+      "message": "chore: Bump package version",
+      "tree": {
+        "sha": "e91d42ce60348a4767046d3c3f58ab609455eb58",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/e91d42ce60348a4767046d3c3f58ab609455eb58"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/0b048e6a70dbe9e8d03aa15c9a6bf1917f973a95",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/0b048e6a70dbe9e8d03aa15c9a6bf1917f973a95",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/0b048e6a70dbe9e8d03aa15c9a6bf1917f973a95",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/0b048e6a70dbe9e8d03aa15c9a6bf1917f973a95/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "07886c195527ce584b209861f97f85d3f732737f",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/07886c195527ce584b209861f97f85d3f732737f",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/07886c195527ce584b209861f97f85d3f732737f"
+      }
+    ]
+  },
+  {
+    "sha": "07886c195527ce584b209861f97f85d3f732737f",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6MDc4ODZjMTk1NTI3Y2U1ODRiMjA5ODYxZjk3Zjg1ZDNmNzMyNzM3Zg==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-24T18:17:12Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-24T18:17:12Z"
+      },
+      "message": "docs(Customization): Add common pitfalls section on Theming\n\nAdds a section on Theming where it explains common bugs a user\nmight encounter when using the ThemeProvider.\n\nFixes #1721",
+      "tree": {
+        "sha": "9308cfa3a21d7a5682aa56a253e60b13a4843b1e",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/9308cfa3a21d7a5682aa56a253e60b13a4843b1e"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/07886c195527ce584b209861f97f85d3f732737f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/07886c195527ce584b209861f97f85d3f732737f",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/07886c195527ce584b209861f97f85d3f732737f",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/07886c195527ce584b209861f97f85d3f732737f/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "96a7692a6ab0c95f3acc15beb88e9dc8f42d382d",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/96a7692a6ab0c95f3acc15beb88e9dc8f42d382d",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/96a7692a6ab0c95f3acc15beb88e9dc8f42d382d"
+      }
+    ]
+  },
+  {
+    "sha": "96a7692a6ab0c95f3acc15beb88e9dc8f42d382d",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6OTZhNzY5MmE2YWIwYzk1ZjNhY2MxNWJlYjg4ZTlkYzhmNDJkMzgyZA==",
+    "commit": {
+      "author": {
+        "name": "Rawad Karam",
+        "email": "rawad.karam@mail.mcgill.ca",
+        "date": "2019-02-24T17:52:33Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-24T17:52:33Z"
+      },
+      "message": "fix(Slider): False positioning of Slider and track width (#1739)\n\nChanged style of mainStyles.thumbHorizontal, mainStylesthumbVertical to take height/width into consideration (respectively).",
+      "tree": {
+        "sha": "bfe359c1c1aed1560ace2a799b8748df88e3e698",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/bfe359c1c1aed1560ace2a799b8748df88e3e698"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/96a7692a6ab0c95f3acc15beb88e9dc8f42d382d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/96a7692a6ab0c95f3acc15beb88e9dc8f42d382d",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/96a7692a6ab0c95f3acc15beb88e9dc8f42d382d",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/96a7692a6ab0c95f3acc15beb88e9dc8f42d382d/comments",
+    "author": {
+      "login": "rawad663",
+      "id": 14206171,
+      "node_id": "MDQ6VXNlcjE0MjA2MTcx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14206171?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rawad663",
+      "html_url": "https://github.com/rawad663",
+      "followers_url": "https://api.github.com/users/rawad663/followers",
+      "following_url": "https://api.github.com/users/rawad663/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rawad663/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rawad663/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rawad663/subscriptions",
+      "organizations_url": "https://api.github.com/users/rawad663/orgs",
+      "repos_url": "https://api.github.com/users/rawad663/repos",
+      "events_url": "https://api.github.com/users/rawad663/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rawad663/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4c0a2cfbb994cc44e53b9e15cac1d6dca820f595",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/4c0a2cfbb994cc44e53b9e15cac1d6dca820f595",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/4c0a2cfbb994cc44e53b9e15cac1d6dca820f595"
+      }
+    ]
+  },
+  {
+    "sha": "141d3a7c5a3585b46b1377b655889ec0c35d80f9",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6MTQxZDNhN2M1YTM1ODViNDZiMTM3N2I2NTU4ODllYzBjMzVkODBmOQ==",
+    "commit": {
+      "author": {
+        "name": "yiksanchan",
+        "email": "evan.chanyiksan@gmail.com",
+        "date": "2019-02-24T13:56:12Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-24T13:56:12Z"
+      },
+      "message": "docs(Input): Fix anchor tags for some props (#1789)",
+      "tree": {
+        "sha": "a6b834bb50ae1c0bd7402a3a3d7cdce43d17e0c5",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/a6b834bb50ae1c0bd7402a3a3d7cdce43d17e0c5"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/141d3a7c5a3585b46b1377b655889ec0c35d80f9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/141d3a7c5a3585b46b1377b655889ec0c35d80f9",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/141d3a7c5a3585b46b1377b655889ec0c35d80f9",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/141d3a7c5a3585b46b1377b655889ec0c35d80f9/comments",
+    "author": {
+      "login": "YikSanChan",
+      "id": 17229109,
+      "node_id": "MDQ6VXNlcjE3MjI5MTA5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/17229109?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YikSanChan",
+      "html_url": "https://github.com/YikSanChan",
+      "followers_url": "https://api.github.com/users/YikSanChan/followers",
+      "following_url": "https://api.github.com/users/YikSanChan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YikSanChan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YikSanChan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YikSanChan/subscriptions",
+      "organizations_url": "https://api.github.com/users/YikSanChan/orgs",
+      "repos_url": "https://api.github.com/users/YikSanChan/repos",
+      "events_url": "https://api.github.com/users/YikSanChan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YikSanChan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c668c78dddd9315f6ca5ec2548e051b2a7e29c73",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/c668c78dddd9315f6ca5ec2548e051b2a7e29c73",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/c668c78dddd9315f6ca5ec2548e051b2a7e29c73"
+      }
+    ]
+  },
+  {
+    "sha": "4c0a2cfbb994cc44e53b9e15cac1d6dca820f595",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6NGMwYTJjZmJiOTk0Y2M0NGU1M2I5ZTE1Y2FjMWQ2ZGNhODIwZjU5NQ==",
+    "commit": {
+      "author": {
+        "name": "aliassar",
+        "email": "40848213+aliassar@users.noreply.github.com",
+        "date": "2019-02-24T12:54:05Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-24T12:54:05Z"
+      },
+      "message": "fix(Button): Ripple on android was out of bounds (#1799)\n\nThis fix contains the ripple to the button's container",
+      "tree": {
+        "sha": "16f4f5cd8ed71aecd1a5f4fd110ca4d392ebbe1c",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/16f4f5cd8ed71aecd1a5f4fd110ca4d392ebbe1c"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/4c0a2cfbb994cc44e53b9e15cac1d6dca820f595",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/4c0a2cfbb994cc44e53b9e15cac1d6dca820f595",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/4c0a2cfbb994cc44e53b9e15cac1d6dca820f595",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/4c0a2cfbb994cc44e53b9e15cac1d6dca820f595/comments",
+    "author": {
+      "login": "aliassar",
+      "id": 40848213,
+      "node_id": "MDQ6VXNlcjQwODQ4MjEz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/40848213?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aliassar",
+      "html_url": "https://github.com/aliassar",
+      "followers_url": "https://api.github.com/users/aliassar/followers",
+      "following_url": "https://api.github.com/users/aliassar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aliassar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aliassar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aliassar/subscriptions",
+      "organizations_url": "https://api.github.com/users/aliassar/orgs",
+      "repos_url": "https://api.github.com/users/aliassar/repos",
+      "events_url": "https://api.github.com/users/aliassar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aliassar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dc23f8bbcb4653095936fc0b02e449ff8b5cbf22",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/dc23f8bbcb4653095936fc0b02e449ff8b5cbf22",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/dc23f8bbcb4653095936fc0b02e449ff8b5cbf22"
+      }
+    ]
+  },
+  {
+    "sha": "c668c78dddd9315f6ca5ec2548e051b2a7e29c73",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6YzY2OGM3OGRkZGQ5MzE1ZjZjYTVlYzI1NDhlMDUxYjJhN2UyOWM3Mw==",
+    "commit": {
+      "author": {
+        "name": "Luke Williams",
+        "email": "19214773+lukewlms@users.noreply.github.com",
+        "date": "2019-02-13T12:35:53Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-13T12:35:53Z"
+      },
+      "message": "docs(v1-blog): Add List styling instructions (#1777)\n\n...to achieve parity with pre-1.0 List component styles.",
+      "tree": {
+        "sha": "e2fd4032f3cf917ba25af5e8300173a2ea8e3bf6",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/e2fd4032f3cf917ba25af5e8300173a2ea8e3bf6"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/c668c78dddd9315f6ca5ec2548e051b2a7e29c73",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/c668c78dddd9315f6ca5ec2548e051b2a7e29c73",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/c668c78dddd9315f6ca5ec2548e051b2a7e29c73",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/c668c78dddd9315f6ca5ec2548e051b2a7e29c73/comments",
+    "author": {
+      "login": "lukewlms",
+      "id": 19214773,
+      "node_id": "MDQ6VXNlcjE5MjE0Nzcz",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19214773?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lukewlms",
+      "html_url": "https://github.com/lukewlms",
+      "followers_url": "https://api.github.com/users/lukewlms/followers",
+      "following_url": "https://api.github.com/users/lukewlms/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lukewlms/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lukewlms/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lukewlms/subscriptions",
+      "organizations_url": "https://api.github.com/users/lukewlms/orgs",
+      "repos_url": "https://api.github.com/users/lukewlms/repos",
+      "events_url": "https://api.github.com/users/lukewlms/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lukewlms/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1e27cd8034c1235832a275d055b793d2a0c7bb64",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/1e27cd8034c1235832a275d055b793d2a0c7bb64",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/1e27cd8034c1235832a275d055b793d2a0c7bb64"
+      }
+    ]
+  },
+  {
+    "sha": "dc23f8bbcb4653095936fc0b02e449ff8b5cbf22",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6ZGMyM2Y4YmJjYjQ2NTMwOTU5MzZmYzBiMDJlNDQ5ZmY4YjVjYmYyMg==",
+    "commit": {
+      "author": {
+        "name": "Raphaela Protásio",
+        "email": "raphaelaprotasio@gmail.com",
+        "date": "2019-02-11T11:16:58Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:15Z"
+      },
+      "message": "fix(types): Add underlayColor to SocialIconProps interface (#1769)\n\n* fix: add underlayColor to SocialIconProps interface\r\n\r\n* update underlayColor description in SocialIconProps\r\n\r\nCo-Authored-By: Rawphs <raphaelaprotasio@gmail.com>",
+      "tree": {
+        "sha": "a225484322dc91b3a4b7be3338858932d6499482",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/a225484322dc91b3a4b7be3338858932d6499482"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/dc23f8bbcb4653095936fc0b02e449ff8b5cbf22",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/dc23f8bbcb4653095936fc0b02e449ff8b5cbf22",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/dc23f8bbcb4653095936fc0b02e449ff8b5cbf22",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/dc23f8bbcb4653095936fc0b02e449ff8b5cbf22/comments",
+    "author": {
+      "login": "Rawphs",
+      "id": 17144983,
+      "node_id": "MDQ6VXNlcjE3MTQ0OTgz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17144983?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Rawphs",
+      "html_url": "https://github.com/Rawphs",
+      "followers_url": "https://api.github.com/users/Rawphs/followers",
+      "following_url": "https://api.github.com/users/Rawphs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Rawphs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Rawphs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Rawphs/subscriptions",
+      "organizations_url": "https://api.github.com/users/Rawphs/orgs",
+      "repos_url": "https://api.github.com/users/Rawphs/repos",
+      "events_url": "https://api.github.com/users/Rawphs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Rawphs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0c0beaf2390033d384a4f75068bbc8e81050496e",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/0c0beaf2390033d384a4f75068bbc8e81050496e",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/0c0beaf2390033d384a4f75068bbc8e81050496e"
+      }
+    ]
+  },
+  {
+    "sha": "0c0beaf2390033d384a4f75068bbc8e81050496e",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6MGMwYmVhZjIzOTAwMzNkMzg0YTRmNzUwNjhiYmM4ZTgxMDUwNDk2ZQ==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-11T03:42:20Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:14Z"
+      },
+      "message": "feat(Text): Add style props to customize header props (#1773)\n\nAllows user to set the styling that should be applied when props\r\nh1, h2, h3, h4 are used.\r\n\r\nImplements #1754",
+      "tree": {
+        "sha": "b8f1cdba4cf561827f65ce9406a34fb8e73a0b2d",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/b8f1cdba4cf561827f65ce9406a34fb8e73a0b2d"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/0c0beaf2390033d384a4f75068bbc8e81050496e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/0c0beaf2390033d384a4f75068bbc8e81050496e",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/0c0beaf2390033d384a4f75068bbc8e81050496e",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/0c0beaf2390033d384a4f75068bbc8e81050496e/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "64392b06c00bbf09f8c33e893e5ab25d0e052c25",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/64392b06c00bbf09f8c33e893e5ab25d0e052c25",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/64392b06c00bbf09f8c33e893e5ab25d0e052c25"
+      }
+    ]
+  },
+  {
+    "sha": "64392b06c00bbf09f8c33e893e5ab25d0e052c25",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6NjQzOTJiMDZjMDBiYmYwOWY4YzMzZTg5M2U1YWIyNWQwZTA1MmMyNQ==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-11T02:54:04Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:14Z"
+      },
+      "message": "fix: Change merge library to deepmerge from lodash (#1772)\n\nWhile using ThemeProvider, some errors would be shown for some\r\ncomponents for arrays not having keys. This was due to the merge\r\nalgorithm in lodash.merge which happens to affect react's keys.\r\n\r\nSwitching to deepmerge instead of lodash.merge does not have this\r\nissue but maintains expected behaviour.\r\n\r\nFixes #1735 #1517",
+      "tree": {
+        "sha": "8dd3e8e599a4bdfd5ea11301b957b4be7d472044",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/8dd3e8e599a4bdfd5ea11301b957b4be7d472044"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/64392b06c00bbf09f8c33e893e5ab25d0e052c25",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/64392b06c00bbf09f8c33e893e5ab25d0e052c25",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/64392b06c00bbf09f8c33e893e5ab25d0e052c25",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/64392b06c00bbf09f8c33e893e5ab25d0e052c25/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "818a3f28589f6f5cc36628d4f6e8c064793da717",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/818a3f28589f6f5cc36628d4f6e8c064793da717",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/818a3f28589f6f5cc36628d4f6e8c064793da717"
+      }
+    ]
+  },
+  {
+    "sha": "818a3f28589f6f5cc36628d4f6e8c064793da717",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6ODE4YTNmMjg1ODlmNmY1Y2MzNjYyOGQ0ZjZlOGMwNjQ3OTNkYTcxNw==",
+    "commit": {
+      "author": {
+        "name": "Zhuoli Zhang",
+        "email": "novasponge82@gmail.com",
+        "date": "2019-02-10T21:02:31Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:13Z"
+      },
+      "message": "fix(types): Add cancel method for search bar (#1768)",
+      "tree": {
+        "sha": "a8000cb18f9e47fd4550fe510efca66e41b051b8",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/a8000cb18f9e47fd4550fe510efca66e41b051b8"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/818a3f28589f6f5cc36628d4f6e8c064793da717",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/818a3f28589f6f5cc36628d4f6e8c064793da717",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/818a3f28589f6f5cc36628d4f6e8c064793da717",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/818a3f28589f6f5cc36628d4f6e8c064793da717/comments",
+    "author": {
+      "login": "novasponge",
+      "id": 13239561,
+      "node_id": "MDQ6VXNlcjEzMjM5NTYx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13239561?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/novasponge",
+      "html_url": "https://github.com/novasponge",
+      "followers_url": "https://api.github.com/users/novasponge/followers",
+      "following_url": "https://api.github.com/users/novasponge/following{/other_user}",
+      "gists_url": "https://api.github.com/users/novasponge/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/novasponge/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/novasponge/subscriptions",
+      "organizations_url": "https://api.github.com/users/novasponge/orgs",
+      "repos_url": "https://api.github.com/users/novasponge/repos",
+      "events_url": "https://api.github.com/users/novasponge/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/novasponge/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5242bb669425e7ba259d68e5e2eba85d29ed585f",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/5242bb669425e7ba259d68e5e2eba85d29ed585f",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/5242bb669425e7ba259d68e5e2eba85d29ed585f"
+      }
+    ]
+  },
+  {
+    "sha": "5242bb669425e7ba259d68e5e2eba85d29ed585f",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6NTI0MmJiNjY5NDI1ZTdiYTI1OWQ2OGU1ZTJlYmE4NWQyOWVkNTg1Zg==",
+    "commit": {
+      "author": {
+        "name": "Daniel Holmes",
+        "email": "daniel@danielholmes.org",
+        "date": "2019-02-07T12:37:47Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:13Z"
+      },
+      "message": "fix(types): Added divider to colors definition (#1760)\n\nFrom `src/config/colors.js`: https://github.com/react-native-training/react-native-elements/blob/next/src/config/colors.js#L19",
+      "tree": {
+        "sha": "45ac398f9fcbc63c5a00d34f61effc0bbdacd253",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/45ac398f9fcbc63c5a00d34f61effc0bbdacd253"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/5242bb669425e7ba259d68e5e2eba85d29ed585f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/5242bb669425e7ba259d68e5e2eba85d29ed585f",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/5242bb669425e7ba259d68e5e2eba85d29ed585f",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/5242bb669425e7ba259d68e5e2eba85d29ed585f/comments",
+    "author": {
+      "login": "danielholmes",
+      "id": 349833,
+      "node_id": "MDQ6VXNlcjM0OTgzMw==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/349833?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danielholmes",
+      "html_url": "https://github.com/danielholmes",
+      "followers_url": "https://api.github.com/users/danielholmes/followers",
+      "following_url": "https://api.github.com/users/danielholmes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielholmes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielholmes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielholmes/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielholmes/orgs",
+      "repos_url": "https://api.github.com/users/danielholmes/repos",
+      "events_url": "https://api.github.com/users/danielholmes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielholmes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "adb75deb98536d60b293f355db01fd3e81ed2328",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/adb75deb98536d60b293f355db01fd3e81ed2328",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/adb75deb98536d60b293f355db01fd3e81ed2328"
+      }
+    ]
+  },
+  {
+    "sha": "adb75deb98536d60b293f355db01fd3e81ed2328",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6YWRiNzVkZWI5ODUzNmQ2MGIyOTNmMzU1ZGIwMWZkM2U4MWVkMjMyOA==",
+    "commit": {
+      "author": {
+        "name": "Daniel Holmes",
+        "email": "daniel@danielholmes.org",
+        "date": "2019-02-07T12:30:50Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:12Z"
+      },
+      "message": "fix(types): Update ListItem.chevron and checkmark defs (#1761)\n\n`ListItem` props `chevron` and `checkmark` [are rendered](https://github.com/react-native-training/react-native-elements/blob/master/src/list/ListItem.js#L213):\n\n```js\n{renderNode(Icon, checkmark, checkmarkDefaultProps(theme))}\n{renderNode(Icon, chevron, chevronDefaultProps)}\n```\n\nUsing the [`renderNode` helper](https://github.com/react-native-training/react-native-elements/blob/master/src/helpers/renderNode.js), which includes the option of a `ReactElement`:\n\n```js\nconst renderNode = (Component, content, defaultProps) => {\n  if (content == null || content === false) {\n    return null;\n  }\n  if (React.isValidElement(content)) {\n    return content;\n  }\n```",
+      "tree": {
+        "sha": "28a5881532a2a0c8663b66c83ab91512fb9f5c7b",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/28a5881532a2a0c8663b66c83ab91512fb9f5c7b"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/adb75deb98536d60b293f355db01fd3e81ed2328",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/adb75deb98536d60b293f355db01fd3e81ed2328",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/adb75deb98536d60b293f355db01fd3e81ed2328",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/adb75deb98536d60b293f355db01fd3e81ed2328/comments",
+    "author": {
+      "login": "danielholmes",
+      "id": 349833,
+      "node_id": "MDQ6VXNlcjM0OTgzMw==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/349833?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danielholmes",
+      "html_url": "https://github.com/danielholmes",
+      "followers_url": "https://api.github.com/users/danielholmes/followers",
+      "following_url": "https://api.github.com/users/danielholmes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielholmes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielholmes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielholmes/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielholmes/orgs",
+      "repos_url": "https://api.github.com/users/danielholmes/repos",
+      "events_url": "https://api.github.com/users/danielholmes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielholmes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3df242af3f0d7859148c943ee45700687f0f6508",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/3df242af3f0d7859148c943ee45700687f0f6508",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/3df242af3f0d7859148c943ee45700687f0f6508"
+      }
+    ]
+  },
+  {
+    "sha": "3df242af3f0d7859148c943ee45700687f0f6508",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6M2RmMjQyYWYzZjBkNzg1OTE0OGM5NDNlZTQ1NzAwNjg3ZjBmNjUwOA==",
+    "commit": {
+      "author": {
+        "name": "Daniel Holmes",
+        "email": "daniel@danielholmes.org",
+        "date": "2019-02-06T20:54:22Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:12Z"
+      },
+      "message": "fix(types): Change PlaceholderContent type (#1759)\n\n[The docs](https://react-native-training.github.io/react-native-elements/docs/image.html) are accurate about the usage of this `PlaceholderContent` prop:\r\n\r\n```js\r\n<Image\r\n  source={{ uri: image }}\r\n  style={{ width: 200, height: 200 }}\r\n  PlaceholderContent={<ActivityIndicator />}\r\n/>\r\n```\r\n\r\ni.e. you provide a `ReactElement`, not a `ComponentType` as specified in the TypeScript definitions here.\r\n\r\n[Examining the source](https://github.com/react-native-training/react-native-elements/blob/master/src/image/Image.js#L69) shows that it's used as a `ReactElement` too (i.e. rendered directly) rather than a Component:\r\n\r\n```js\r\n>\r\n  {PlaceholderContent}\r\n</Animated.View>\r\n```",
+      "tree": {
+        "sha": "d94c9001e8e3cb789bb43ad3634a31c293377008",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/d94c9001e8e3cb789bb43ad3634a31c293377008"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/3df242af3f0d7859148c943ee45700687f0f6508",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/3df242af3f0d7859148c943ee45700687f0f6508",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/3df242af3f0d7859148c943ee45700687f0f6508",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/3df242af3f0d7859148c943ee45700687f0f6508/comments",
+    "author": {
+      "login": "danielholmes",
+      "id": 349833,
+      "node_id": "MDQ6VXNlcjM0OTgzMw==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/349833?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danielholmes",
+      "html_url": "https://github.com/danielholmes",
+      "followers_url": "https://api.github.com/users/danielholmes/followers",
+      "following_url": "https://api.github.com/users/danielholmes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielholmes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielholmes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielholmes/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielholmes/orgs",
+      "repos_url": "https://api.github.com/users/danielholmes/repos",
+      "events_url": "https://api.github.com/users/danielholmes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielholmes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "139b6a83fdfd4548f59170711a0fced298bc9e7f",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/139b6a83fdfd4548f59170711a0fced298bc9e7f",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/139b6a83fdfd4548f59170711a0fced298bc9e7f"
+      }
+    ]
+  },
+  {
+    "sha": "139b6a83fdfd4548f59170711a0fced298bc9e7f",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6MTM5YjZhODNmZGZkNDU0OGY1OTE3MDcxMWEwZmNlZDI5OGJjOWU3Zg==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-06T03:02:34Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:11Z"
+      },
+      "message": "feat(CheckBox): Add titleProps prop (#1757)\n\nAllows passing Text props to the title\r\n\r\nImplements #1273",
+      "tree": {
+        "sha": "c194095a686f615bca58229a3cf199b03e7b6ce3",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/c194095a686f615bca58229a3cf199b03e7b6ce3"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/139b6a83fdfd4548f59170711a0fced298bc9e7f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/139b6a83fdfd4548f59170711a0fced298bc9e7f",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/139b6a83fdfd4548f59170711a0fced298bc9e7f",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/139b6a83fdfd4548f59170711a0fced298bc9e7f/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f30405db8cd64a23926a01c49755f0d4e1410c34",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/f30405db8cd64a23926a01c49755f0d4e1410c34",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/f30405db8cd64a23926a01c49755f0d4e1410c34"
+      }
+    ]
+  },
+  {
+    "sha": "f30405db8cd64a23926a01c49755f0d4e1410c34",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6ZjMwNDA1ZGI4Y2Q2NGEyMzkyNmEwMWM0OTc1NWYwZDRlMTQxMGMzNA==",
+    "commit": {
+      "author": {
+        "name": "Michael Clark",
+        "email": "33385949+michaelclark2@users.noreply.github.com",
+        "date": "2019-02-06T00:25:59Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:11Z"
+      },
+      "message": "fix(Tooltip): Adjust position for StatusBar on android (#1751)\n\nTooltip was appearing off by 24pt on android of the target. This was because the coordinates did not take into account the status bar height.",
+      "tree": {
+        "sha": "ffcff3c0469247ef2c8b7b6c5f806e2998f1de5c",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/ffcff3c0469247ef2c8b7b6c5f806e2998f1de5c"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/f30405db8cd64a23926a01c49755f0d4e1410c34",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/f30405db8cd64a23926a01c49755f0d4e1410c34",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/f30405db8cd64a23926a01c49755f0d4e1410c34",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/f30405db8cd64a23926a01c49755f0d4e1410c34/comments",
+    "author": {
+      "login": "michaelclark2",
+      "id": 33385949,
+      "node_id": "MDQ6VXNlcjMzMzg1OTQ5",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33385949?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/michaelclark2",
+      "html_url": "https://github.com/michaelclark2",
+      "followers_url": "https://api.github.com/users/michaelclark2/followers",
+      "following_url": "https://api.github.com/users/michaelclark2/following{/other_user}",
+      "gists_url": "https://api.github.com/users/michaelclark2/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/michaelclark2/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/michaelclark2/subscriptions",
+      "organizations_url": "https://api.github.com/users/michaelclark2/orgs",
+      "repos_url": "https://api.github.com/users/michaelclark2/repos",
+      "events_url": "https://api.github.com/users/michaelclark2/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/michaelclark2/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ac2df2839c4ce74872ba769f605a1df475c061a3",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/ac2df2839c4ce74872ba769f605a1df475c061a3",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/ac2df2839c4ce74872ba769f605a1df475c061a3"
+      }
+    ]
+  },
+  {
+    "sha": "ac2df2839c4ce74872ba769f605a1df475c061a3",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6YWMyZGYyODM5YzRjZTc0ODcyYmE3NjlmNjA1YTFkZjQ3NWMwNjFhMw==",
+    "commit": {
+      "author": {
+        "name": "Abdulaziz Ghuloum",
+        "email": "aghuloum@gmail.com",
+        "date": "2019-02-05T23:10:54Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:10Z"
+      },
+      "message": "fix(types): Add cancelButtonTitle prop to SearchBar (#1753)\n\nAdded optional string `cancelButtonTitle` property to `SearchBarIOS`.",
+      "tree": {
+        "sha": "2a71cef1db98d61d987c41792f9373495cc2c02b",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/2a71cef1db98d61d987c41792f9373495cc2c02b"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/ac2df2839c4ce74872ba769f605a1df475c061a3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/ac2df2839c4ce74872ba769f605a1df475c061a3",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/ac2df2839c4ce74872ba769f605a1df475c061a3",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/ac2df2839c4ce74872ba769f605a1df475c061a3/comments",
+    "author": {
+      "login": "azizghuloum",
+      "id": 22506749,
+      "node_id": "MDQ6VXNlcjIyNTA2NzQ5",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/22506749?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/azizghuloum",
+      "html_url": "https://github.com/azizghuloum",
+      "followers_url": "https://api.github.com/users/azizghuloum/followers",
+      "following_url": "https://api.github.com/users/azizghuloum/following{/other_user}",
+      "gists_url": "https://api.github.com/users/azizghuloum/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/azizghuloum/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/azizghuloum/subscriptions",
+      "organizations_url": "https://api.github.com/users/azizghuloum/orgs",
+      "repos_url": "https://api.github.com/users/azizghuloum/repos",
+      "events_url": "https://api.github.com/users/azizghuloum/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/azizghuloum/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "af0c72d97d0fb285ae7a41138464c721db9c6ca7",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/af0c72d97d0fb285ae7a41138464c721db9c6ca7",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/af0c72d97d0fb285ae7a41138464c721db9c6ca7"
+      }
+    ]
+  },
+  {
+    "sha": "af0c72d97d0fb285ae7a41138464c721db9c6ca7",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6YWYwYzcyZDk3ZDBmYjI4NWFlN2E0MTEzODQ2NGM3MjFkYjljNmNhNw==",
+    "commit": {
+      "author": {
+        "name": "Andrey Yatsyk",
+        "email": "yatsyk@gmail.com",
+        "date": "2019-02-04T02:54:41Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:10Z"
+      },
+      "message": "chore: Fix mix of import and module.exports (#1749)\n\nChanges module.exports in normalizeText helper to use ES6 default exports.",
+      "tree": {
+        "sha": "6ac6babd7f04a294be0997658148e06abb8e9b1e",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/6ac6babd7f04a294be0997658148e06abb8e9b1e"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/af0c72d97d0fb285ae7a41138464c721db9c6ca7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/af0c72d97d0fb285ae7a41138464c721db9c6ca7",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/af0c72d97d0fb285ae7a41138464c721db9c6ca7",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/af0c72d97d0fb285ae7a41138464c721db9c6ca7/comments",
+    "author": {
+      "login": "yatsyk",
+      "id": 197800,
+      "node_id": "MDQ6VXNlcjE5NzgwMA==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/197800?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yatsyk",
+      "html_url": "https://github.com/yatsyk",
+      "followers_url": "https://api.github.com/users/yatsyk/followers",
+      "following_url": "https://api.github.com/users/yatsyk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yatsyk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yatsyk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yatsyk/subscriptions",
+      "organizations_url": "https://api.github.com/users/yatsyk/orgs",
+      "repos_url": "https://api.github.com/users/yatsyk/repos",
+      "events_url": "https://api.github.com/users/yatsyk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yatsyk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a831bbe30f2d1ac6fbdcbdba2977a69cee51cf6b",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/a831bbe30f2d1ac6fbdcbdba2977a69cee51cf6b",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/a831bbe30f2d1ac6fbdcbdba2977a69cee51cf6b"
+      }
+    ]
+  },
+  {
+    "sha": "a831bbe30f2d1ac6fbdcbdba2977a69cee51cf6b",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6YTgzMWJiZTMwZjJkMWFjNmZiZGNiZGJhMjk3N2E2OWNlZTUxY2Y2Yg==",
+    "commit": {
+      "author": {
+        "name": "Rawad Karam",
+        "email": "rawad.karam@mail.mcgill.ca",
+        "date": "2019-02-03T05:40:07Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:10Z"
+      },
+      "message": "fix: ESLint error in Text component (#1741)\n\nRemoved fontFamily prop in props object spread",
+      "tree": {
+        "sha": "2e57cfc59a7197ed77ff3b87080243a95504e79b",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/2e57cfc59a7197ed77ff3b87080243a95504e79b"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/a831bbe30f2d1ac6fbdcbdba2977a69cee51cf6b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/a831bbe30f2d1ac6fbdcbdba2977a69cee51cf6b",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/a831bbe30f2d1ac6fbdcbdba2977a69cee51cf6b",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/a831bbe30f2d1ac6fbdcbdba2977a69cee51cf6b/comments",
+    "author": {
+      "login": "rawad663",
+      "id": 14206171,
+      "node_id": "MDQ6VXNlcjE0MjA2MTcx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14206171?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rawad663",
+      "html_url": "https://github.com/rawad663",
+      "followers_url": "https://api.github.com/users/rawad663/followers",
+      "following_url": "https://api.github.com/users/rawad663/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rawad663/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rawad663/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rawad663/subscriptions",
+      "organizations_url": "https://api.github.com/users/rawad663/orgs",
+      "repos_url": "https://api.github.com/users/rawad663/repos",
+      "events_url": "https://api.github.com/users/rawad663/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rawad663/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "38d1cec3eeb8b515dd2e91a67db913d1ca3134a6",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/38d1cec3eeb8b515dd2e91a67db913d1ca3134a6",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/38d1cec3eeb8b515dd2e91a67db913d1ca3134a6"
+      }
+    ]
+  },
+  {
+    "sha": "38d1cec3eeb8b515dd2e91a67db913d1ca3134a6",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6MzhkMWNlYzNlZWI4YjUxNWRkMmU5MWE2N2RiOTEzZDFjYTMxMzRhNg==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-01-31T11:59:00Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:09Z"
+      },
+      "message": "chore: Update react-native-dom version\n\nCurrent version had a vunerability alert",
+      "tree": {
+        "sha": "18c95215d26d1fcd974fa2bd7776a79dd3ba7a40",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/18c95215d26d1fcd974fa2bd7776a79dd3ba7a40"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/38d1cec3eeb8b515dd2e91a67db913d1ca3134a6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/38d1cec3eeb8b515dd2e91a67db913d1ca3134a6",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/38d1cec3eeb8b515dd2e91a67db913d1ca3134a6",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/38d1cec3eeb8b515dd2e91a67db913d1ca3134a6/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0ca10c7ed188d2aa5cd5b8c0a1093a838af1ed1e",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/0ca10c7ed188d2aa5cd5b8c0a1093a838af1ed1e",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/0ca10c7ed188d2aa5cd5b8c0a1093a838af1ed1e"
+      }
+    ]
+  },
+  {
+    "sha": "0ca10c7ed188d2aa5cd5b8c0a1093a838af1ed1e",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6MGNhMTBjN2VkMTg4ZDJhYTVjZDViOGMwYTEwOTNhODM4YWYxZWQxZQ==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-01-31T00:47:09Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:45:09Z"
+      },
+      "message": "build: Update peer dev version of react-native-vector-icons\n\nReact Native Elements 1.0.0 depends on antdesign which is only\navailable in react-native-vector-icons 6.0.0^. Changed the peer\ndep to reflect this.\n\nFixes #1736",
+      "tree": {
+        "sha": "2a8410ae406b154141ffce9abf44baf9b3cc106c",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/2a8410ae406b154141ffce9abf44baf9b3cc106c"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/0ca10c7ed188d2aa5cd5b8c0a1093a838af1ed1e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/0ca10c7ed188d2aa5cd5b8c0a1093a838af1ed1e",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/0ca10c7ed188d2aa5cd5b8c0a1093a838af1ed1e",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/0ca10c7ed188d2aa5cd5b8c0a1093a838af1ed1e/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1e27cd8034c1235832a275d055b793d2a0c7bb64",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/1e27cd8034c1235832a275d055b793d2a0c7bb64",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/1e27cd8034c1235832a275d055b793d2a0c7bb64"
+      }
+    ]
+  },
+  {
+    "sha": "1e27cd8034c1235832a275d055b793d2a0c7bb64",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6MWUyN2NkODAzNGMxMjM1ODMyYTI3NWQwNTViNzkzZDJhMGM3YmI2NA==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:43:15Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-12T10:43:15Z"
+      },
+      "message": "docs(Header): Change containerstyle to containerStyle\n\nTypo where containerStyle was spelt wrong.",
+      "tree": {
+        "sha": "d50f2da35a2e995eeec00c7d79bdbfc2fc87eca7",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/d50f2da35a2e995eeec00c7d79bdbfc2fc87eca7"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/1e27cd8034c1235832a275d055b793d2a0c7bb64",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/1e27cd8034c1235832a275d055b793d2a0c7bb64",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/1e27cd8034c1235832a275d055b793d2a0c7bb64",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/1e27cd8034c1235832a275d055b793d2a0c7bb64/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "87e82825b47896f8e4016c409b5db33ba89d4943",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/87e82825b47896f8e4016c409b5db33ba89d4943",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/87e82825b47896f8e4016c409b5db33ba89d4943"
+      }
+    ]
+  },
+  {
+    "sha": "87e82825b47896f8e4016c409b5db33ba89d4943",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6ODdlODI4MjViNDc4OTZmOGU0MDE2YzQwOWI1ZGIzM2JhODlkNDk0Mw==",
+    "commit": {
+      "author": {
+        "name": "Zeno Rocha",
+        "email": "hi@zenorocha.com",
+        "date": "2019-02-07T14:41:20Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-07T14:41:20Z"
+      },
+      "message": "docs: Add Le Cheese to Showcase (#1763)\n\nCloses #1762",
+      "tree": {
+        "sha": "c29fcb98cb92ef6716954d0014d898f2359a83d4",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/c29fcb98cb92ef6716954d0014d898f2359a83d4"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/87e82825b47896f8e4016c409b5db33ba89d4943",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/87e82825b47896f8e4016c409b5db33ba89d4943",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/87e82825b47896f8e4016c409b5db33ba89d4943",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/87e82825b47896f8e4016c409b5db33ba89d4943/comments",
+    "author": {
+      "login": "zenorocha",
+      "id": 398893,
+      "node_id": "MDQ6VXNlcjM5ODg5Mw==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/398893?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zenorocha",
+      "html_url": "https://github.com/zenorocha",
+      "followers_url": "https://api.github.com/users/zenorocha/followers",
+      "following_url": "https://api.github.com/users/zenorocha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zenorocha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zenorocha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zenorocha/subscriptions",
+      "organizations_url": "https://api.github.com/users/zenorocha/orgs",
+      "repos_url": "https://api.github.com/users/zenorocha/repos",
+      "events_url": "https://api.github.com/users/zenorocha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zenorocha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fcfcf2321af11cf4a5ff3880b5069f6f2dd4e0b9",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/fcfcf2321af11cf4a5ff3880b5069f6f2dd4e0b9",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/fcfcf2321af11cf4a5ff3880b5069f6f2dd4e0b9"
+      }
+    ]
+  },
+  {
+    "sha": "fcfcf2321af11cf4a5ff3880b5069f6f2dd4e0b9",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6ZmNmY2YyMzIxYWYxMWNmNGE1ZmYzODgwYjUwNjlmNmYyZGQ0ZTBiOQ==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-04T13:37:20Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-04T13:37:20Z"
+      },
+      "message": "docs(website): Remove v1 label\n\nWe've launched v1! The label is no longer needed",
+      "tree": {
+        "sha": "22389a2a73376afca3cc2c49f089482e5b6bfe9b",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/22389a2a73376afca3cc2c49f089482e5b6bfe9b"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/fcfcf2321af11cf4a5ff3880b5069f6f2dd4e0b9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/fcfcf2321af11cf4a5ff3880b5069f6f2dd4e0b9",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/fcfcf2321af11cf4a5ff3880b5069f6f2dd4e0b9",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/fcfcf2321af11cf4a5ff3880b5069f6f2dd4e0b9/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "22cb269654a838e114dbb00ff002eb98883ab2e7",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/22cb269654a838e114dbb00ff002eb98883ab2e7",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/22cb269654a838e114dbb00ff002eb98883ab2e7"
+      }
+    ]
+  },
+  {
+    "sha": "22cb269654a838e114dbb00ff002eb98883ab2e7",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6MjJjYjI2OTY1NGE4MzhlMTE0ZGJiMDBmZjAwMmViOTg4ODNhYjJlNw==",
+    "commit": {
+      "author": {
+        "name": "Ben Lugavere",
+        "email": "b.lugavere@gmail.com",
+        "date": "2019-02-03T02:57:42Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-02-03T02:57:42Z"
+      },
+      "message": "docs(Button): Fix missing comma typo (#1745)",
+      "tree": {
+        "sha": "f551b352714d2d950f9ef876fc00acab603f6ac8",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/f551b352714d2d950f9ef876fc00acab603f6ac8"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/22cb269654a838e114dbb00ff002eb98883ab2e7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/22cb269654a838e114dbb00ff002eb98883ab2e7",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/22cb269654a838e114dbb00ff002eb98883ab2e7",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/22cb269654a838e114dbb00ff002eb98883ab2e7/comments",
+    "author": {
+      "login": "blugavere",
+      "id": 10419222,
+      "node_id": "MDQ6VXNlcjEwNDE5MjIy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10419222?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/blugavere",
+      "html_url": "https://github.com/blugavere",
+      "followers_url": "https://api.github.com/users/blugavere/followers",
+      "following_url": "https://api.github.com/users/blugavere/following{/other_user}",
+      "gists_url": "https://api.github.com/users/blugavere/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/blugavere/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/blugavere/subscriptions",
+      "organizations_url": "https://api.github.com/users/blugavere/orgs",
+      "repos_url": "https://api.github.com/users/blugavere/repos",
+      "events_url": "https://api.github.com/users/blugavere/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/blugavere/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c8e703f74556b359c33dc7e3f3ad30978e19064e",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/c8e703f74556b359c33dc7e3f3ad30978e19064e",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/c8e703f74556b359c33dc7e3f3ad30978e19064e"
+      }
+    ]
+  },
+  {
+    "sha": "c8e703f74556b359c33dc7e3f3ad30978e19064e",
+    "node_id": "MDY6Q29tbWl0Njc3MDk4MDg6YzhlNzAzZjc0NTU2YjM1OWMzM2RjN2UzZjNhZDMwOTc4ZTE5MDY0ZQ==",
+    "commit": {
+      "author": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-01-30T11:04:43Z"
+      },
+      "committer": {
+        "name": "Kyle Roach",
+        "email": "kroach.work@gmail.com",
+        "date": "2019-01-30T11:04:43Z"
+      },
+      "message": "docs(website): Update backers and sponsors opencollective images",
+      "tree": {
+        "sha": "487a5a3e12d2e1ff2c59fded18f21abeeab5fa10",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/trees/487a5a3e12d2e1ff2c59fded18f21abeeab5fa10"
+      },
+      "url": "https://api.github.com/repos/react-native-training/react-native-elements/git/commits/c8e703f74556b359c33dc7e3f3ad30978e19064e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/c8e703f74556b359c33dc7e3f3ad30978e19064e",
+    "html_url": "https://github.com/react-native-training/react-native-elements/commit/c8e703f74556b359c33dc7e3f3ad30978e19064e",
+    "comments_url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/c8e703f74556b359c33dc7e3f3ad30978e19064e/comments",
+    "author": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "iRoachie",
+      "id": 5962998,
+      "node_id": "MDQ6VXNlcjU5NjI5OTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5962998?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iRoachie",
+      "html_url": "https://github.com/iRoachie",
+      "followers_url": "https://api.github.com/users/iRoachie/followers",
+      "following_url": "https://api.github.com/users/iRoachie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iRoachie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iRoachie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iRoachie/subscriptions",
+      "organizations_url": "https://api.github.com/users/iRoachie/orgs",
+      "repos_url": "https://api.github.com/users/iRoachie/repos",
+      "events_url": "https://api.github.com/users/iRoachie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iRoachie/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "72e89661379a4dc2678ad7c5b694837f87fa0cad",
+        "url": "https://api.github.com/repos/react-native-training/react-native-elements/commits/72e89661379a4dc2678ad7c5b694837f87fa0cad",
+        "html_url": "https://github.com/react-native-training/react-native-elements/commit/72e89661379a4dc2678ad7c5b694837f87fa0cad"
+      }
+    ]
+  }
+]
