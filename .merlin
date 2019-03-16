@@ -18,6 +18,10 @@ S /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-react-navigation/lib/o
 B /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-react-navigation/lib/ocaml
 S /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-random-nav/lib/ocaml
 B /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-random-nav/lib/ocaml
+S /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-fetch/lib/ocaml
+B /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-fetch/lib/ocaml
+S /Users/prisc_000/working/RNWEB/gitphone/node_modules/@glennsl/bs-json/lib/ocaml
+B /Users/prisc_000/working/RNWEB/gitphone/node_modules/@glennsl/bs-json/lib/ocaml
 S src
 B lib/bs/src
 S src/mobile
