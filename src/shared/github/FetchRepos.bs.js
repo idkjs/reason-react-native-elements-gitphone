@@ -4,6 +4,7 @@
 var $$Array = require("bs-platform/lib/js/array.js");
 var Block = require("bs-platform/lib/js/block.js");
 var Curry = require("bs-platform/lib/js/curry.js");
+var Belt_Array = require("bs-platform/lib/js/belt_Array.js");
 var Caml_option = require("bs-platform/lib/js/caml_option.js");
 var Json_decode = require("@glennsl/bs-json/src/Json_decode.bs.js");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
@@ -14,6 +15,7 @@ var View$BsReactNative = require("bs-react-native/src/components/view.js");
 var RNGHListItem$Gitphone = require("./RNGHListItem.bs.js");
 var FlatList$BsReactNative = require("bs-react-native/src/components/flatList.js");
 var ScrollView$BsReactNative = require("bs-react-native/src/components/scrollView.js");
+var ActivityIndicator$BsReactNative = require("bs-react-native/src/components/activityIndicator.js");
 
 function commitDecode(json) {
   return {
@@ -92,23 +94,37 @@ function make(navigation, _children) {
                                                   return Curry._1(self[/* send */3], /* LoadCommits */0);
                                                 }), "FetchCommits", undefined, undefined, /* array */[]))]));
                   case 1 : 
-                      return ReasonReact.element(undefined, undefined, Text$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, /* array */["Loading..."]));
+                      return ReasonReact.element(undefined, undefined, ActivityIndicator$BsReactNative.make(undefined, /* String */["#87ceeb"], undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[]));
                   case 2 : 
                       return ReasonReact.element(undefined, undefined, Text$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, /* array */["Something went wrong!"]));
                   
                 }
               } else {
+                var commits = match[0];
+                console.log("COMMITS", commits);
                 var keyExtractor = function (_item, idx) {
                   return String(idx);
                 };
-                var commits = $$Array.of_list(match[0]);
-                var renderItem = function (param) {
+                var commits$1 = $$Array.of_list(commits);
+                var renderItem = function (idx, item) {
+                  return ReasonReact.element(String(idx), undefined, View$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[
+                                  ReasonReact.element(undefined, undefined, Text$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, /* array */[item.author_name])),
+                                  ReasonReact.element(undefined, undefined, Text$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, /* array */[item.avatar_url]))
+                                ]));
+                };
+                var renderItem2 = function (param) {
                   return FlatList$BsReactNative.renderItem((function (param) {
                                 var item = param[/* item */0];
                                 return ReasonReact.element(undefined, undefined, RNGHListItem$Gitphone.make(item.author_name, item.message, /* array */[]));
                               }), param);
                 };
-                return ReasonReact.element(undefined, undefined, View$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, Caml_option.some(Styles$Gitphone.styles.container), undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, ScrollView$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, FlatList$BsReactNative.make(commits, renderItem, keyExtractor, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[]))]))]));
+                return ReasonReact.element(undefined, undefined, View$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, Caml_option.some(Styles$Gitphone.styles.container), undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[
+                                ReasonReact.element(undefined, undefined, Text$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, /* array */["SUCCESS!"])),
+                                ReasonReact.element(undefined, undefined, ScrollView$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[
+                                          Belt_Array.mapWithIndex(commits$1, renderItem),
+                                          ReasonReact.element(undefined, undefined, FlatList$BsReactNative.make(commits$1, renderItem2, keyExtractor, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[]))
+                                        ]))
+                              ]));
               }
             }),
           /* initialState */(function (param) {

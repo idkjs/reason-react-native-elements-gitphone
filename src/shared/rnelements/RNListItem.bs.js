@@ -3,8 +3,8 @@
 
 var RNListItemGen = require("./RNListItem.gen");
 
-function make(prim, prim$1, prim$2, prim$3) {
-  return RNListItemGen.make(prim, prim$1, prim$2, prim$3);
+function make(prim, prim$1, prim$2, prim$3, prim$4, prim$5) {
+  return RNListItemGen.make(prim, prim$1, prim$2, prim$3, prim$4, prim$5);
 }
 
 exports.make = make;
