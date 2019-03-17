@@ -28,6 +28,10 @@ S src/mobile
 B lib/bs/src/mobile
 S src/shared/data
 B lib/bs/src/shared/data
+S src/shared/weather
+B lib/bs/src/shared/weather
+S src/shared/github
+B lib/bs/src/shared/github
 S src/shared/components
 B lib/bs/src/shared/components
 S src/shared/styles

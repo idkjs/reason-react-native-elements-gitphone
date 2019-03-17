@@ -4,6 +4,7 @@
 var $$Array = require("bs-platform/lib/js/array.js");
 var Block = require("bs-platform/lib/js/block.js");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
+var CommitData$Gitphone = require("../data/CommitData.bs.js");
 var RNListItem$Gitphone = require("./RNListItem.bs.js");
 var Style$BsReactNative = require("bs-react-native/src/style.js");
 var FlatList$BsReactNative = require("bs-react-native/src/components/flatList.js");
@@ -112,7 +113,7 @@ function make(navigation, _children) {
           /* willUpdate */component[/* willUpdate */7],
           /* shouldUpdate */component[/* shouldUpdate */8],
           /* render */(function (_self) {
-              console.log(getCommits);
+              Promise.resolve(CommitData$Gitphone.fetchCommits);
               return ReasonReact.element(undefined, undefined, ScrollView$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, FlatList$BsReactNative.make($$Array.of_list(listJst), renderItem, keyExtractor, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[]))]));
             }),
           /* initialState */component[/* initialState */10],

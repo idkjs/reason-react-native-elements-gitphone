@@ -4,23 +4,33 @@
 var ReasonReact = require("reason-react/src/ReasonReact.js");
 var Home$Gitphone = require("../shared/components/Home.bs.js");
 var CommitList$Gitphone = require("../shared/components/CommitList.bs.js");
+var FetchRepos$Gitphone = require("../shared/github/FetchRepos.bs.js");
 var StackNavigator$BsReactNavigation = require("bs-react-navigation/src/StackNavigator.bs.js");
 
 function getScreen(route, navigation) {
-  if (route) {
-    return /* tuple */[
-            ReasonReact.element(undefined, undefined, CommitList$Gitphone.make(navigation, /* array */[])),
-            {
-              title: "CommitList"
-            }
-          ];
-  } else {
-    return /* tuple */[
-            ReasonReact.element(undefined, undefined, Home$Gitphone.make(navigation, /* array */[])),
-            {
-              title: "Home"
-            }
-          ];
+  switch (route) {
+    case 0 : 
+        return /* tuple */[
+                ReasonReact.element(undefined, undefined, Home$Gitphone.make(navigation, /* array */[])),
+                {
+                  title: "Home"
+                }
+              ];
+    case 1 : 
+        return /* tuple */[
+                ReasonReact.element(undefined, undefined, FetchRepos$Gitphone.make(navigation, /* array */[])),
+                {
+                  title: "FetchRepos"
+                }
+              ];
+    case 2 : 
+        return /* tuple */[
+                ReasonReact.element(undefined, undefined, CommitList$Gitphone.make(navigation, /* array */[])),
+                {
+                  title: "CommitList"
+                }
+              ];
+    
   }
 }
 

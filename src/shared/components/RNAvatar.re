@@ -1,9 +1,13 @@
+
+type source = {
+  uri:string
+};
 [@genType.import "react-native-elements"]
 [@genType.as "Avatar"]
 [@bs.module "./RNAvatar.gen"]
 external make:
   (
-    ~source: string,
+    ~source: source,
     ~size: string,
     ~rounded: bool,
     'a

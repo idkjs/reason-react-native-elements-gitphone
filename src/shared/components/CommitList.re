@@ -53,7 +53,7 @@ FlatList.renderItem(({item}) =>
         uri:item##avatar_url
       },
       title:item##name
-       }
+    }
   />
   );
 let keyExtractor = (_item, idx) => string_of_int(idx);
@@ -68,7 +68,8 @@ let getCommits =
 let make = (~navigation: Config.navigationProp, _children) => {
   ...component,
   render: _self =>{
-    Js.log(getCommits);
+    let commits = Js.Promise.resolve(CommitData.fetchCommits);
+    // Js.log(getCommits);
     <ScrollView>
       <FlatList
         data={listJst->Array.of_list}
