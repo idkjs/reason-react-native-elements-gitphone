@@ -40,7 +40,7 @@ function decodeCommits(json) {
   return Json_decode.list(decodeCommit, json);
 }
 
-function fetchRepos(param) {
+function fetchCommits(param) {
   return fetch(reposUrl).then(ApiUtils$Gitphone.responseJsonOrError).then((function (json) {
                 console.log(json);
                 var commits = Json_decode.list(decodeCommit, json);
@@ -56,5 +56,5 @@ function fetchRepos(param) {
 exports.decodeCommit = decodeCommit;
 exports.reposUrl = reposUrl;
 exports.decodeCommits = decodeCommits;
-exports.fetchRepos = fetchRepos;
+exports.fetchCommits = fetchCommits;
 /* No side effect */

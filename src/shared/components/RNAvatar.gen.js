@@ -17,7 +17,7 @@ import * as React from 'react';
 import * as ReasonReact from 'reason-react/src/ReasonReact.js';
 
 export type Props = {|
-  +source: string, 
+  +source: source, 
   +size: string, 
   +rounded: boolean
 |};

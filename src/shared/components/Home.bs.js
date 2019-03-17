@@ -33,8 +33,11 @@ function make(navigation, _children) {
                               ReasonReact.element(undefined, undefined, InputEl$Gitphone.make("Github's owner", "Owner", Caml_option.some(Styles$Gitphone.InputS[/* containerStyle */0]), Caml_option.some(Styles$Gitphone.InputS[/* inputStyle */1]), /* array */[])),
                               ReasonReact.element(undefined, undefined, InputEl$Gitphone.make("Github's repository name", "Repo", Caml_option.some(Styles$Gitphone.InputS[/* containerStyle */0]), Caml_option.some(Styles$Gitphone.InputS[/* inputStyle */1]), /* array */[])),
                               ReasonReact.element(undefined, undefined, ButtonEl$Gitphone.make(Caml_option.some(Styles$Gitphone.ButtonS[/* containerStyle */0]), undefined, undefined, undefined, undefined, undefined, undefined, Caml_option.some(renderPlaneIcon2), undefined, undefined, undefined, undefined, undefined, (function (_evt) {
-                                          return Curry._1(navigation[/* push */0], /* CommitList */1);
-                                        }), "SUBMIT", undefined, undefined, /* array */[]))
+                                          return Curry._1(navigation[/* push */0], /* CommitList */2);
+                                        }), "SUBMIT", undefined, undefined, /* array */[])),
+                              ReasonReact.element(undefined, undefined, ButtonEl$Gitphone.make(Caml_option.some(Styles$Gitphone.ButtonS[/* containerStyle */0]), undefined, undefined, undefined, undefined, undefined, undefined, Caml_option.some(renderPlaneIcon2), undefined, undefined, undefined, undefined, undefined, (function (_evt) {
+                                          return Curry._1(navigation[/* push */0], /* FetchRepos */1);
+                                        }), "FetchRepos", undefined, undefined, /* array */[]))
                             ]));
             }),
           /* initialState */component[/* initialState */10],

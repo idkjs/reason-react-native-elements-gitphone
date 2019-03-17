@@ -18,7 +18,7 @@ let reposUrl = "https://api.github.com/repos/react-native-training/react-native-
 let decodeCommits = json : commits =>
 json |> Json.Decode.list(decodeCommit);
 
-let fetchRepos = () =>
+let fetchCommits = () =>
   Js.Promise.(
     Fetch.fetch(reposUrl)
       |> then_(ApiUtils.responseJsonOrError)

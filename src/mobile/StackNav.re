@@ -32,6 +32,7 @@ module Stack =
       switch (route) {
       | Home => (<Home navigation />, screenOptions(~title="Home", ()))
       | CommitList => (<CommitList navigation />, screenOptions(~title="CommitList", ()))
+      | FetchRepos => (<FetchRepos navigation />, screenOptions(~title="FetchRepos", ()))
       };
   });
 
