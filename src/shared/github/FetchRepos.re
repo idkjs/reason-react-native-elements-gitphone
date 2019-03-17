@@ -74,29 +74,38 @@ let make = (~navigation: Config.navigationProp,_children) => {
     <View style=styles##container>
       <RNElements.Button buttonStyle=ButtonS.containerStyle  title="FetchCommits" onPress={ _evt => self.send(LoadCommits)} />
     </View>}
-    | Loading => <Text> {str("Loading...")} </Text>
+    | Loading => <ActivityIndicator color={String("#87ceeb")} />
     | Failure => <Text> {str("Something went wrong!")} </Text>
     | Success(commits) => {
+      Js.log2("COMMITS",commits);
       let keyExtractor = (_item, idx) => string_of_int(idx);
 
       let commits = commits->Array.of_list;
-      let renderItem =
-        FlatList.renderItem(({item}) =>
-          <RNGHListItem
-            name=item##author_name
-            message=item##message
-          />
-        );
-        <View style=styles##container>
-      <ScrollView>
-        <FlatList
+      let renderItem = (idx,item:commit) => <View key=string_of_int(idx)>
+      	<Text> {str(item##author_name)} </Text>
+      	<Text> {str(item##avatar_url)} </Text>
+      </View>;
+      let renderItem2 = FlatList.renderItem(({item}) =>
+        <RNGHListItem
+    name=item##author_name
+    message=item##message
+  />);
+      <View style=styles##container>
+      <Text> {str("SUCCESS!")} </Text>
+
+          <ScrollView>
+     {
+        commits->Belt.Array.mapWithIndex(_,renderItem)->ReasonReact.array
+      }
+      <FlatList
           data={commits}
-          renderItem
+          renderItem={renderItem2}
           keyExtractor
         />
-      </ScrollView>
+        </ScrollView>
       </View>
 
-    }
+
+      }
     }
 };

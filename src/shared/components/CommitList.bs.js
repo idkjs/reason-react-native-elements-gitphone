@@ -3,15 +3,26 @@
 
 var $$Array = require("bs-platform/lib/js/array.js");
 var Block = require("bs-platform/lib/js/block.js");
+var Curry = require("bs-platform/lib/js/curry.js");
+var Caml_option = require("bs-platform/lib/js/caml_option.js");
+var Json_decode = require("@glennsl/bs-json/src/Json_decode.bs.js");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
-var CommitData$Gitphone = require("../data/CommitData.bs.js");
-var RNListItem$Gitphone = require("./RNListItem.bs.js");
+var Utils$Gitphone = require("../Utils/Utils.bs.js");
+var RNAvatar$Gitphone = require("../rnelements/RNAvatar.bs.js");
+var Text$BsReactNative = require("bs-react-native/src/components/text.js");
+var View$BsReactNative = require("bs-react-native/src/components/view.js");
+var RNListItem$Gitphone = require("../rnelements/RNListItem.bs.js");
 var Style$BsReactNative = require("bs-react-native/src/style.js");
 var FlatList$BsReactNative = require("bs-react-native/src/components/flatList.js");
 var ScrollView$BsReactNative = require("bs-react-native/src/components/scrollView.js");
 var StyleSheet$BsReactNative = require("bs-react-native/src/styleSheet.js");
+var ActivityIndicator$BsReactNative = require("bs-react-native/src/components/activityIndicator.js");
 
 var styles = StyleSheet$BsReactNative.create({
+      subtitleStyle: Style$BsReactNative.style(/* :: */[
+            Style$BsReactNative.color(/* String */Block.__(0, ["rgba(0, 0, 0, 0.54)"])),
+            /* [] */0
+          ]),
       containerStyle: Style$BsReactNative.style(/* :: */[
             Style$BsReactNative.alignItems(/* Center */2),
             /* :: */[
@@ -27,6 +38,19 @@ var styles = StyleSheet$BsReactNative.create({
                       /* [] */0
                     ]
                   ]
+                ]
+              ]
+            ]
+          ]),
+      containerStyle2: Style$BsReactNative.style(/* :: */[
+            Style$BsReactNative.alignItems(/* FlexStart */0),
+            /* :: */[
+              Style$BsReactNative.borderBottomWidth(1),
+              /* :: */[
+                Style$BsReactNative.flex(1),
+                /* :: */[
+                  Style$BsReactNative.width(/* Pct */Block.__(1, [100])),
+                  /* [] */0
                 ]
               ]
             ]
@@ -59,49 +83,19 @@ var styles = StyleSheet$BsReactNative.create({
 
 var S = /* module */[/* styles */styles];
 
-var listJst_000 = {
-  name: "Amy Farha",
-  avatar_url: "https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg",
-  subtitle: "Vice President"
-};
+var styles$1 = StyleSheet$BsReactNative.create({
+      leftElementStyle: Style$BsReactNative.style(/* :: */[
+            Style$BsReactNative.height(/* Pt */Block.__(0, [100])),
+            /* :: */[
+              Style$BsReactNative.marginRight(/* Pt */Block.__(0, [0])),
+              /* [] */0
+            ]
+          ])
+    });
 
-var listJst_001 = /* :: */[
-  {
-    name: "Chris Jackson",
-    avatar_url: "https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg",
-    subtitle: "Vice Chairman"
-  },
-  /* [] */0
-];
+var component = ReasonReact.statelessComponent("LeftElement");
 
-var listJst = /* :: */[
-  listJst_000,
-  listJst_001
-];
-
-var component = ReasonReact.statelessComponent("CommitList");
-
-function renderItem(param) {
-  return FlatList$BsReactNative.renderItem((function (param) {
-                var item = param[/* item */0];
-                return ReasonReact.element(undefined, undefined, RNListItem$Gitphone.make(item.name, item.subtitle, /* record */[
-                                /* source : record */[/* uri */item.avatar_url],
-                                /* title */item.name
-                              ], /* array */[]));
-              }), param);
-}
-
-function keyExtractor(_item, idx) {
-  return String(idx);
-}
-
-var getCommits = fetch("https://api.github.com/repos/react-native-training/react-native-elements/commits").then((function (prim) {
-          return prim.json();
-        })).then((function (json) {
-        return Promise.resolve((console.log(json), /* () */0));
-      }));
-
-function make(navigation, _children) {
+function make(item, _children) {
   return /* record */[
           /* debugName */component[/* debugName */0],
           /* reactClassInternal */component[/* reactClassInternal */1],
@@ -113,8 +107,7 @@ function make(navigation, _children) {
           /* willUpdate */component[/* willUpdate */7],
           /* shouldUpdate */component[/* shouldUpdate */8],
           /* render */(function (_self) {
-              Promise.resolve(CommitData$Gitphone.fetchCommits);
-              return ReasonReact.element(undefined, undefined, ScrollView$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, FlatList$BsReactNative.make($$Array.of_list(listJst), renderItem, keyExtractor, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[]))]));
+              return ReasonReact.element(undefined, undefined, View$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, Caml_option.some(styles$1.leftElementStyle), undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, RNAvatar$Gitphone.make(/* record */[/* uri */item.avatar_url], "medium", true, /* array */[]))]));
             }),
           /* initialState */component[/* initialState */10],
           /* retainedProps */component[/* retainedProps */11],
@@ -123,11 +116,141 @@ function make(navigation, _children) {
         ];
 }
 
+var LeftElement = /* module */[
+  /* styles */styles$1,
+  /* component */component,
+  /* make */make
+];
+
+function commitDecode(json) {
+  return {
+          sha: Json_decode.field("sha", Json_decode.string, json),
+          message: Json_decode.at(/* :: */[
+                  "commit",
+                  /* :: */[
+                    "message",
+                    /* [] */0
+                  ]
+                ], Json_decode.string)(json),
+          author_name: Json_decode.at(/* :: */[
+                  "commit",
+                  /* :: */[
+                    "author",
+                    /* :: */[
+                      "name",
+                      /* [] */0
+                    ]
+                  ]
+                ], Json_decode.string)(json),
+          avatar_url: Json_decode.at(/* :: */[
+                  "author",
+                  /* :: */[
+                    "avatar_url",
+                    /* [] */0
+                  ]
+                ], Json_decode.string)(json)
+        };
+}
+
+function commits(json) {
+  return Json_decode.list(commitDecode, json);
+}
+
+var Decode = /* module */[
+  /* commitDecode */commitDecode,
+  /* commits */commits
+];
+
+var repoUrl = "https://api.github.com/repos/react-native-training/react-native-elements/commits";
+
+function fetchCommits(param) {
+  return fetch(repoUrl).then((function (prim) {
+                    return prim.json();
+                  })).then((function (json) {
+                  var commits = Json_decode.list(commitDecode, json);
+                  return Promise.resolve(commits);
+                })).catch((function (_err) {
+                return Promise.resolve(undefined);
+              }));
+}
+
+var component$1 = ReasonReact.reducerComponent("CommitList");
+
+function renderItem(param) {
+  return FlatList$BsReactNative.renderItem((function (param) {
+                var item = param[/* item */0];
+                return ReasonReact.element(undefined, undefined, RNListItem$Gitphone.make(item.author_name, item.message, ReasonReact.element(undefined, undefined, make(item, /* array */[])), styles.containerStyle2, styles.subtitleStyle, /* array */[]));
+              }), param);
+}
+
+function make$1(navigation, _children) {
+  return /* record */[
+          /* debugName */component$1[/* debugName */0],
+          /* reactClassInternal */component$1[/* reactClassInternal */1],
+          /* handedOffState */component$1[/* handedOffState */2],
+          /* willReceiveProps */component$1[/* willReceiveProps */3],
+          /* didMount */(function (self) {
+              return Curry._1(self[/* send */3], /* LoadCommits */0);
+            }),
+          /* didUpdate */component$1[/* didUpdate */5],
+          /* willUnmount */component$1[/* willUnmount */6],
+          /* willUpdate */component$1[/* willUpdate */7],
+          /* shouldUpdate */component$1[/* shouldUpdate */8],
+          /* render */(function (self) {
+              var match = self[/* state */1];
+              if (typeof match === "number") {
+                switch (match) {
+                  case 0 : 
+                      return null;
+                  case 1 : 
+                      return ReasonReact.element(undefined, undefined, ActivityIndicator$BsReactNative.make(undefined, /* String */["#87ceeb"], undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[]));
+                  case 2 : 
+                      return ReasonReact.element(undefined, undefined, Text$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, /* array */[Utils$Gitphone.s("Something went wrong!")]));
+                  
+                }
+              } else {
+                return ReasonReact.element(undefined, undefined, ScrollView$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, FlatList$BsReactNative.make($$Array.of_list(match[0]), renderItem, (function (commit, param) {
+                                              return commit.sha;
+                                            }), undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[]))]));
+              }
+            }),
+          /* initialState */(function (param) {
+              return /* NotAsked */0;
+            }),
+          /* retainedProps */component$1[/* retainedProps */11],
+          /* reducer */(function (action, _state) {
+              if (typeof action === "number") {
+                if (action !== 0) {
+                  return /* Update */Block.__(0, [/* Failure */2]);
+                } else {
+                  return /* UpdateWithSideEffects */Block.__(2, [
+                            /* Loading */1,
+                            (function (self) {
+                                fetchCommits(/* () */0).then((function (result) {
+                                        if (result !== undefined) {
+                                          return Promise.resolve(Curry._1(self[/* send */3], /* LoadedCommits */[result]));
+                                        } else {
+                                          return Promise.resolve(Curry._1(self[/* send */3], /* LoadCommitsFailed */1));
+                                        }
+                                      }));
+                                return /* () */0;
+                              })
+                          ]);
+                }
+              } else {
+                return /* Update */Block.__(0, [/* Success */[action[0]]]);
+              }
+            }),
+          /* jsElementWrapped */component$1[/* jsElementWrapped */13]
+        ];
+}
+
 exports.S = S;
-exports.listJst = listJst;
-exports.component = component;
+exports.LeftElement = LeftElement;
+exports.Decode = Decode;
+exports.repoUrl = repoUrl;
+exports.fetchCommits = fetchCommits;
+exports.component = component$1;
 exports.renderItem = renderItem;
-exports.keyExtractor = keyExtractor;
-exports.getCommits = getCommits;
-exports.make = make;
+exports.make = make$1;
 /* styles Not a pure module */

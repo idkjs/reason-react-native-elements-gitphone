@@ -6,7 +6,7 @@ let component = ReasonReact.statelessComponent("Home");
 let make = (~navigation: Config.navigationProp,_children) => {
   ...component,
   render: _self =>{
-    let onPressButton = () => navigation.push(CommitList);
+    // let onPressButton = () => navigation.push(CommitList);
     <View style=styles##container>
       <RNElements.Input containerStyle=InputS.containerStyle inputStyle=InputS.inputStyle label="Owner" placeholder="Github's owner" />
       <RNElements.Input containerStyle=InputS.containerStyle inputStyle=InputS.inputStyle label="Repo" placeholder="Github's repository name" />

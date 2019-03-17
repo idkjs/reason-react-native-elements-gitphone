@@ -20,7 +20,9 @@ external make:
   (
     ~title: string,
     ~subtitle: string,
-    ~leftAvatar: leftAvatar,
+    ~leftElement: ReasonReact.reactElement,
+    ~containerStyle: BsReactNative.Style.t,
+    ~subtitleStyle: BsReactNative.Style.t,
     'a
   ) =>
   ReasonReact.component(
