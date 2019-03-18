@@ -28,4 +28,6 @@ export function AvatarTypeChecked(props: Props) {
 }
 
 // Export 'make' early to allow circular import from the '.bs.js' file.
-export const make: mixed = function (source: $any, size: $any, rounded: $any, children: $any) { return ReasonReact.wrapJsForReason(Avatar, {source: source, size: size, rounded: rounded}, children); };
+export const make: mixed = function (source: $any, size: $any, rounded: $any, children: $any) { return ReasonReact.wrapJsForReason(Avatar, {source: {uri:source[0]}, size: size, rounded: rounded}, children); };
+
+export type source = {| +uri: string |};

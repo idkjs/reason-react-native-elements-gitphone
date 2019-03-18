@@ -2,6 +2,18 @@
 'use strict';
 
 var Json_decode = require("@glennsl/bs-json/src/Json_decode.bs.js");
+var Caml_exceptions = require("bs-platform/lib/js/caml_exceptions.js");
+
+var ValueNotFound = Caml_exceptions.create("CommitData-Gitphone.Decode.ValueNotFound");
+
+function checkForExistance(fieldName, value) {
+  if (value !== undefined) {
+    return value;
+  } else {
+    console.log(fieldName + " is null or does not exist");
+    return "";
+  }
+}
 
 function commitDecode(json) {
   return {
@@ -23,13 +35,13 @@ function commitDecode(json) {
                     ]
                   ]
                 ], Json_decode.string)(json),
-          avatar_url: Json_decode.at(/* :: */[
-                  "author",
-                  /* :: */[
-                    "avatar_url",
-                    /* [] */0
-                  ]
-                ], Json_decode.string)(json)
+          avatar_url: checkForExistance("avatar_url", Json_decode.optional(Json_decode.at(/* :: */[
+                        "author",
+                        /* :: */[
+                          "avatar_url",
+                          /* [] */0
+                        ]
+                      ], Json_decode.string), json))
         };
 }
 
@@ -38,6 +50,8 @@ function commits(json) {
 }
 
 var Decode = /* module */[
+  /* ValueNotFound */ValueNotFound,
+  /* checkForExistance */checkForExistance,
   /* commitDecode */commitDecode,
   /* commits */commits
 ];

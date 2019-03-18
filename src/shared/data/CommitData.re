@@ -7,12 +7,23 @@ type commit = {
 };
 
 module Decode = {
+
+  exception ValueNotFound(string);
+  let checkForExistance = (~fieldName, value) =>
+    switch (value) {
+    | None =>
+      Js.log(fieldName ++ " is null or does not exist");
+      "";
+    | Some(value) => value
+    };
   let commitDecode = json =>
   Json.Decode.{
     "sha": json |> field("sha", string),
     "message": json |> at(["commit","message"], string),
     "author_name": json |> at(["commit","author","name"], string),
-    "avatar_url": json |> at(["author","avatar_url"], string),
+    "avatar_url": json
+    |> optional(at(["author","avatar_url"], string))
+    |> checkForExistance(~fieldName="avatar_url")
   };
   let commits = json: list(commit) => Json.Decode.list(commitDecode, json);
 };

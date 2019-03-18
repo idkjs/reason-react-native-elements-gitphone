@@ -1,4 +1,5 @@
 
+[@genType]
 type source = {
   uri:string
 };
