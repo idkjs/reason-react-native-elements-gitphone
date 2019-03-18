@@ -6,12 +6,15 @@ var Button = 0;
 
 var Input = 0;
 
+var Input2 = 0;
+
 var ListItem = 0;
 
 var Avatar = 0;
 
 exports.Button = Button;
 exports.Input = Input;
+exports.Input2 = Input2;
 exports.ListItem = ListItem;
 exports.Avatar = Avatar;
 /* No side effect */

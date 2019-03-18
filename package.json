@@ -10,6 +10,9 @@
     "bs-react-native": "0.10.0",
     "bs-react-native-vector-icons": "2.0.0-beta.4",
     "bs-react-navigation": "0.2.0",
+    "bs-reform": "6.0.0-gadt.5",
+    "formik": "1.5.1",
+    "lodash.debounce": "4.0.8",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-native": "0.59.1",
@@ -26,7 +29,7 @@
     "ios": "react-native run-ios",
     "start:web": "react-scripts start",
     "build-reason": "bsb -make-world",
-    "gen":"export BS_CMT_POST_PROCESS_CMD=\"gentype\" && bsb -make-world -w",
+    "gen": "export BS_CMT_POST_PROCESS_CMD=\"gentype\" && bsb -make-world -w",
     "watch": "bsb -make-world -w",
     "clean": "bsb -clean-world"
   },

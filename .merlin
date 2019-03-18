@@ -10,6 +10,8 @@ FLG -nostdlib -color always
 FLG -w -30-40+6+7+27+32..39+44+45+101
 S /Users/prisc_000/working/RNWEB/gitphone/node_modules/reason-react/lib/ocaml
 B /Users/prisc_000/working/RNWEB/gitphone/node_modules/reason-react/lib/ocaml
+S /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-reform/lib/ocaml
+B /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-reform/lib/ocaml
 S /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-react-native/lib/ocaml
 B /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-react-native/lib/ocaml
 S /Users/prisc_000/working/RNWEB/gitphone/node_modules/bs-react-native-vector-icons/lib/ocaml
@@ -24,20 +26,18 @@ S /Users/prisc_000/working/RNWEB/gitphone/node_modules/@glennsl/bs-json/lib/ocam
 B /Users/prisc_000/working/RNWEB/gitphone/node_modules/@glennsl/bs-json/lib/ocaml
 S src
 B lib/bs/src
-S src/mobile
-B lib/bs/src/mobile
+S src/router
+B lib/bs/src/router
 S src/shared/data
 B lib/bs/src/shared/data
-S src/shared/weather
-B lib/bs/src/shared/weather
-S src/shared/github
-B lib/bs/src/shared/github
 S src/shared/components
 B lib/bs/src/shared/components
+S src/shared/components/rnelements
+B lib/bs/src/shared/components/rnelements
 S src/shared/styles
 B lib/bs/src/shared/styles
+S src/shared/screens
+B lib/bs/src/shared/screens
 S src/shared/Utils
 B lib/bs/src/shared/Utils
-S src/shared/rnelements
-B lib/bs/src/shared/rnelements
 ####BSB GENERATED: NO EDIT}

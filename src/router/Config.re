@@ -2,7 +2,6 @@ open BsReactNavigation;
 
 type route =
     | Home
-    | FetchRepos
-    | CommitList;
+    | CommitList(string, string);
 
 type navigationProp = StackNavigator.navigation(route);

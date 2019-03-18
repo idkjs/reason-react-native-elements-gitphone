@@ -1,34 +1,29 @@
-
 type commit = {
-  message: string,
-  author_name: string,
-  avatar_url: string,
+  .
+  "sha": string,
+  "message": string,
+  "author_name": string,
+  "avatar_url": string,
 };
-type commits = list(commit);
 
-let decodeCommit = (json: Js.Json.t): commit =>
+module Decode = {
+  let commitDecode = json =>
   Json.Decode.{
-    message: json |> at(["commit","message"], string),
-    author_name: json |> at(["commit","author","name"], string),
-    avatar_url: json |> at(["author","avatar_url"], string),
+    "sha": json |> field("sha", string),
+    "message": json |> at(["commit","message"], string),
+    "author_name": json |> at(["commit","author","name"], string),
+    "avatar_url": json |> at(["author","avatar_url"], string),
   };
+  let commits = json: list(commit) => Json.Decode.list(commitDecode, json);
+};
 
-let reposUrl = "https://api.github.com/repos/react-native-training/react-native-elements/commits";
-
-let decodeCommits = json : commits =>
-json |> Json.Decode.list(decodeCommit);
-
-let fetchCommits = () =>
+let repoUrl = (~owner,~repo) => "https://api.github.com/repos/" ++ owner ++ "/" ++ repo ++ "/commits";
+let fetchCommits = (~owner,~repo) =>
   Js.Promise.(
-    Fetch.fetch(reposUrl)
-      |> then_(ApiUtils.responseJsonOrError)
-      |> then_(
-        json =>{
-          Js.log(json);
-          let commits = decodeCommits(json);
-          Belt.List.forEach(commits, c => Js.log(c))
-          Js.log(commits);
-          resolve(commits)
-        }
-      )
+    Fetch.fetch(repoUrl(~owner,~repo))
+    |> then_(Fetch.Response.json)
+    |> then_(json =>
+         json |> Decode.commits |> (commits => Some(commits) |> resolve)
+       )
+    |> catch(_err => resolve(None))
   );
