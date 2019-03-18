@@ -2,7 +2,7 @@ type commit = {
   .
   "sha": string,
   "message": string,
-  "author_name": string,
+  "name": string,
   "avatar_url": string,
 };
 
@@ -20,7 +20,7 @@ module Decode = {
   Json.Decode.{
     "sha": json |> field("sha", string),
     "message": json |> at(["commit","message"], string),
-    "author_name": json |> at(["commit","author","name"], string),
+    "name": json |> at(["commit","author","name"], string),
     "avatar_url": json
     |> optional(at(["author","avatar_url"], string))
     |> checkForExistance(~fieldName="avatar_url")

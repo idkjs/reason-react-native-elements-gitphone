@@ -25,7 +25,7 @@ function commitDecode(json) {
                     /* [] */0
                   ]
                 ], Json_decode.string)(json),
-          author_name: Json_decode.at(/* :: */[
+          name: Json_decode.at(/* :: */[
                   "commit",
                   /* :: */[
                     "author",
