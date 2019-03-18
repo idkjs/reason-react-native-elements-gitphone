@@ -93,7 +93,8 @@ function make(item, _children) {
           /* willUpdate */component[/* willUpdate */7],
           /* shouldUpdate */component[/* shouldUpdate */8],
           /* render */(function (_self) {
-              return ReasonReact.element(undefined, undefined, View$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, Caml_option.some(styles$1.leftElementStyle), undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, RNAvatar$Gitphone.make(/* record */[/* uri */item.avatar_url], "medium", true, /* array */[]))]));
+              var title = Utils$Gitphone.getInitials(item.name);
+              return ReasonReact.element(undefined, undefined, View$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, Caml_option.some(styles$1.leftElementStyle), undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, RNAvatar$Gitphone.make(/* record */[/* uri */item.avatar_url], "medium", title, true, /* array */[]))]));
             }),
           /* initialState */component[/* initialState */10],
           /* retainedProps */component[/* retainedProps */11],
@@ -113,7 +114,7 @@ var component$1 = ReasonReact.reducerComponent("CommitList");
 function renderItem(param) {
   return FlatList$BsReactNative.renderItem((function (param) {
                 var item = param[/* item */0];
-                return ReasonReact.element(undefined, undefined, RNListItem$Gitphone.make(item.author_name, item.message, ReasonReact.element(undefined, undefined, make(item, /* array */[])), styles.containerStyle2, styles.subtitleStyle, /* array */[]));
+                return ReasonReact.element(undefined, undefined, RNListItem$Gitphone.make(item.name, item.message, ReasonReact.element(undefined, undefined, make(item, /* array */[])), styles.containerStyle2, styles.subtitleStyle, /* array */[]));
               }), param);
 }
 

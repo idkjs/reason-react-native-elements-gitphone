@@ -42,14 +42,16 @@ let styles =
 
     let make = (~item, _children) => {
       ...component,
-      render: (_self) =>
+      render: (_self) =>{
+        let title = Utils.getInitials(item##name);
     <View style=styles##leftElementStyle>
       <RNAvatar
+        title
         source={ uri: item##avatar_url }
         size="medium"
         rounded=true
       />
-    </View>
+    </View>}
     };
 };
 
@@ -67,7 +69,7 @@ type action =
 let component = ReasonReact.reducerComponent("CommitList");
 let renderItem = FlatList.renderItem(({item}) =>
         <RNListItem
-          title=item##author_name
+          title=item##name
           subtitle=item##message
           leftElement={<LeftElement item />}
           containerStyle=S.styles##containerStyle2

@@ -10,6 +10,7 @@ external make:
   (
     ~source: source,
     ~size: string,
+    ~title: string,
     ~rounded: bool,
     'a
   ) =>

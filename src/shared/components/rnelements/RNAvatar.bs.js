@@ -3,8 +3,8 @@
 
 var RNAvatarGen = require("./RNAvatar.gen");
 
-function make(prim, prim$1, prim$2, prim$3) {
-  return RNAvatarGen.make(prim, prim$1, prim$2, prim$3);
+function make(prim, prim$1, prim$2, prim$3, prim$4) {
+  return RNAvatarGen.make(prim, prim$1, prim$2, prim$3, prim$4);
 }
 
 exports.make = make;
