@@ -2,6 +2,7 @@
   "name": "gitphone",
   "version": "0.1.0",
   "private": true,
+  "keywords": ["ReasonML","OCaml","bs-react-native","react-native-elements","react-native","bucklescript"],
   "dependencies": {
     "@glennsl/bs-json": "3.0.0",
     "@react-navigation/web": "1.0.0-alpha.7",
