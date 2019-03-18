@@ -31,8 +31,7 @@ module Stack =
     let getScreen = (route, navigation) =>
       switch (route) {
       | Home => (<Home navigation />, screenOptions(~title="Home", ()))
-      | CommitList => (<CommitList navigation />, screenOptions(~title="CommitList", ()))
-      | FetchRepos => (<FetchRepos navigation />, screenOptions(~title="FetchRepos", ()))
+      | CommitList(owner, repo) => (<CommitList owner repo navigation />, screenOptions(~title="CommitList", ()))
       };
   });
 

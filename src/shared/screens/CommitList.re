@@ -1,7 +1,7 @@
 open BsReactNative;
-open Styles;
 open Utils;
 module S = {
+  let dimensions = Dimensions.get(`screen);
   let styles =
     StyleSheet.create(
       Style.{
@@ -15,8 +15,7 @@ module S = {
             justifyContent(Center),
             paddingHorizontal(Pt(0.)),
             paddingTop(Pt(0.)),
-            width(Pct(100.)),
-          ]),
+            width(Pt(dimensions##width |> float_of_int)),          ]),
         "containerStyle2":
           style([
             alignItems(FlexStart),
@@ -25,15 +24,6 @@ module S = {
             width(Pct(100.)),
           ]),
         "centerContainerStyle": style([paddingRight(Pt(20.))]),
-        "buttonStyle":
-          style([
-            alignItems(Center),
-            height(Pt(48.)),
-            justifyContent(Center),
-            paddingRight(Pt(5.)),
-            width(Pt(40.)),
-          ]),
-          "textStyle": style([color(String("#fff"))]),
       },
     );
 };
@@ -62,44 +52,16 @@ let styles =
     </View>
     };
 };
-type commit = {
-  .
-  "sha": string,
-  "message": string,
-  "author_name": string,
-  "avatar_url": string,
-};
 
-module Decode = {
-  let commitDecode = json =>
-  Json.Decode.{
-    "sha": json |> field("sha", string),
-    "message": json |> at(["commit","message"], string),
-    "author_name": json |> at(["commit","author","name"], string),
-    "avatar_url": json |> at(["author","avatar_url"], string),
-  };
-  let commits = json: list(commit) => Json.Decode.list(commitDecode, json);
-};
-
-let repoUrl = "https://api.github.com/repos/react-native-training/react-native-elements/commits";
-let fetchCommits = () =>
-  Js.Promise.(
-    Fetch.fetch(repoUrl)
-    |> then_(Fetch.Response.json)
-    |> then_(json =>
-         json |> Decode.commits |> (commits => Some(commits) |> resolve)
-       )
-    |> catch(_err => resolve(None))
-  );
 type state =
   | NotAsked
   | Loading
   | Failure
-  | Success(list(commit));
+  | Success(list(CommitData.commit));
 
 type action =
   | LoadCommits
-  | LoadedCommits(list(commit))
+  | LoadedCommits(list(CommitData.commit))
   | LoadCommitsFailed;
 
 let component = ReasonReact.reducerComponent("CommitList");
@@ -111,7 +73,7 @@ let renderItem = FlatList.renderItem(({item}) =>
           containerStyle=S.styles##containerStyle2
           subtitleStyle=S.styles##subtitleStyle
         />);
-let make = (~navigation: Config.navigationProp, _children) => {
+let make = (~navigation: Config.navigationProp,~owner, ~repo, _children) => {
   ...component,
   initialState: () => NotAsked,
   reducer: (action, _state) =>
@@ -122,7 +84,7 @@ let make = (~navigation: Config.navigationProp, _children) => {
         (
           self =>
             Js.Promise.(
-              fetchCommits()
+              CommitData.fetchCommits(~owner, ~repo)
               |> then_(result =>
                    switch (result) {
                    | Some(commits) => resolve(self.send(LoadedCommits(commits)))
@@ -140,17 +102,17 @@ let make = (~navigation: Config.navigationProp, _children) => {
 
    render: self =>
     {switch (self.state) {
-    | NotAsked => ReasonReact.null
-    | Loading => <ActivityIndicator color={String("#87ceeb")} />
-    | Failure => <Text> {s("Something went wrong!")} </Text>
-    | Success(commits) =>
-      <ScrollView>
-        <FlatList
-          data={commits->Array.of_list}
-          renderItem
-          keyExtractor=((commit, _) => commit##sha)
-        />
-        </ScrollView>
-    }
+      | NotAsked => ReasonReact.null
+      | Loading => <ActivityIndicator color={String("#87ceeb")} />
+      | Failure => <Text> {s("Something went wrong!")} </Text>
+      | Success(commits) =>
+        <ScrollView>
+          <FlatList
+            data={commits->Array.of_list}
+            renderItem
+            keyExtractor=((commit, _) => commit##sha)
+          />
+          </ScrollView>
+      }
     }
 };

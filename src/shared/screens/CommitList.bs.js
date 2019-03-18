@@ -5,18 +5,21 @@ var $$Array = require("bs-platform/lib/js/array.js");
 var Block = require("bs-platform/lib/js/block.js");
 var Curry = require("bs-platform/lib/js/curry.js");
 var Caml_option = require("bs-platform/lib/js/caml_option.js");
-var Json_decode = require("@glennsl/bs-json/src/Json_decode.bs.js");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
 var Utils$Gitphone = require("../Utils/Utils.bs.js");
-var RNAvatar$Gitphone = require("../rnelements/RNAvatar.bs.js");
+var RNAvatar$Gitphone = require("../components/rnelements/RNAvatar.bs.js");
 var Text$BsReactNative = require("bs-react-native/src/components/text.js");
 var View$BsReactNative = require("bs-react-native/src/components/view.js");
-var RNListItem$Gitphone = require("../rnelements/RNListItem.bs.js");
+var CommitData$Gitphone = require("../data/CommitData.bs.js");
+var RNListItem$Gitphone = require("../components/rnelements/RNListItem.bs.js");
 var Style$BsReactNative = require("bs-react-native/src/style.js");
 var FlatList$BsReactNative = require("bs-react-native/src/components/flatList.js");
+var Dimensions$BsReactNative = require("bs-react-native/src/dimensions.js");
 var ScrollView$BsReactNative = require("bs-react-native/src/components/scrollView.js");
 var StyleSheet$BsReactNative = require("bs-react-native/src/styleSheet.js");
 var ActivityIndicator$BsReactNative = require("bs-react-native/src/components/activityIndicator.js");
+
+var dimensions = Dimensions$BsReactNative.get(/* screen */-950191252);
 
 var styles = StyleSheet$BsReactNative.create({
       subtitleStyle: Style$BsReactNative.style(/* :: */[
@@ -34,7 +37,7 @@ var styles = StyleSheet$BsReactNative.create({
                   /* :: */[
                     Style$BsReactNative.paddingTop(/* Pt */Block.__(0, [0])),
                     /* :: */[
-                      Style$BsReactNative.width(/* Pct */Block.__(1, [100])),
+                      Style$BsReactNative.width(/* Pt */Block.__(0, [dimensions.width])),
                       /* [] */0
                     ]
                   ]
@@ -58,30 +61,13 @@ var styles = StyleSheet$BsReactNative.create({
       centerContainerStyle: Style$BsReactNative.style(/* :: */[
             Style$BsReactNative.paddingRight(/* Pt */Block.__(0, [20])),
             /* [] */0
-          ]),
-      buttonStyle: Style$BsReactNative.style(/* :: */[
-            Style$BsReactNative.alignItems(/* Center */2),
-            /* :: */[
-              Style$BsReactNative.height(/* Pt */Block.__(0, [48])),
-              /* :: */[
-                Style$BsReactNative.justifyContent(/* Center */2),
-                /* :: */[
-                  Style$BsReactNative.paddingRight(/* Pt */Block.__(0, [5])),
-                  /* :: */[
-                    Style$BsReactNative.width(/* Pt */Block.__(0, [40])),
-                    /* [] */0
-                  ]
-                ]
-              ]
-            ]
-          ]),
-      textStyle: Style$BsReactNative.style(/* :: */[
-            Style$BsReactNative.color(/* String */Block.__(0, ["#fff"])),
-            /* [] */0
           ])
     });
 
-var S = /* module */[/* styles */styles];
+var S = /* module */[
+  /* dimensions */dimensions,
+  /* styles */styles
+];
 
 var styles$1 = StyleSheet$BsReactNative.create({
       leftElementStyle: Style$BsReactNative.style(/* :: */[
@@ -122,58 +108,6 @@ var LeftElement = /* module */[
   /* make */make
 ];
 
-function commitDecode(json) {
-  return {
-          sha: Json_decode.field("sha", Json_decode.string, json),
-          message: Json_decode.at(/* :: */[
-                  "commit",
-                  /* :: */[
-                    "message",
-                    /* [] */0
-                  ]
-                ], Json_decode.string)(json),
-          author_name: Json_decode.at(/* :: */[
-                  "commit",
-                  /* :: */[
-                    "author",
-                    /* :: */[
-                      "name",
-                      /* [] */0
-                    ]
-                  ]
-                ], Json_decode.string)(json),
-          avatar_url: Json_decode.at(/* :: */[
-                  "author",
-                  /* :: */[
-                    "avatar_url",
-                    /* [] */0
-                  ]
-                ], Json_decode.string)(json)
-        };
-}
-
-function commits(json) {
-  return Json_decode.list(commitDecode, json);
-}
-
-var Decode = /* module */[
-  /* commitDecode */commitDecode,
-  /* commits */commits
-];
-
-var repoUrl = "https://api.github.com/repos/react-native-training/react-native-elements/commits";
-
-function fetchCommits(param) {
-  return fetch(repoUrl).then((function (prim) {
-                    return prim.json();
-                  })).then((function (json) {
-                  var commits = Json_decode.list(commitDecode, json);
-                  return Promise.resolve(commits);
-                })).catch((function (_err) {
-                return Promise.resolve(undefined);
-              }));
-}
-
 var component$1 = ReasonReact.reducerComponent("CommitList");
 
 function renderItem(param) {
@@ -183,7 +117,7 @@ function renderItem(param) {
               }), param);
 }
 
-function make$1(navigation, _children) {
+function make$1(navigation, owner, repo, _children) {
   return /* record */[
           /* debugName */component$1[/* debugName */0],
           /* reactClassInternal */component$1[/* reactClassInternal */1],
@@ -226,7 +160,7 @@ function make$1(navigation, _children) {
                   return /* UpdateWithSideEffects */Block.__(2, [
                             /* Loading */1,
                             (function (self) {
-                                fetchCommits(/* () */0).then((function (result) {
+                                CommitData$Gitphone.fetchCommits(owner, repo).then((function (result) {
                                         if (result !== undefined) {
                                           return Promise.resolve(Curry._1(self[/* send */3], /* LoadedCommits */[result]));
                                         } else {
@@ -247,10 +181,7 @@ function make$1(navigation, _children) {
 
 exports.S = S;
 exports.LeftElement = LeftElement;
-exports.Decode = Decode;
-exports.repoUrl = repoUrl;
-exports.fetchCommits = fetchCommits;
 exports.component = component$1;
 exports.renderItem = renderItem;
 exports.make = make$1;
-/* styles Not a pure module */
+/* dimensions Not a pure module */
