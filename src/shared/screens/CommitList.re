@@ -44,14 +44,15 @@ let styles =
       ...component,
       render: (_self) =>{
         let title = Utils.getInitials(item##name);
-    <View style=styles##leftElementStyle>
-      <RNAvatar
-        title
-        source={ uri: item##avatar_url }
-        size="medium"
-        rounded=true
-      />
-    </View>}
+        <View style=styles##leftElementStyle>
+          <RNAvatar
+            title
+            source={ uri: item##avatar_url }
+            size="medium"
+            rounded=true
+          />
+        </View>
+        }
     };
 };
 
