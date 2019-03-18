@@ -10,3 +10,6 @@ and
 
 See <https://github.com/oblador/react-native-vector-icons#web-with-webpack>
 
+![home-screen-image](images/gitphone1.png)
+![text-input-image](images/gitphone2.png)
+![search-result-image](images/gitphone3.png)
